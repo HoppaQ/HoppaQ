@@ -1,0 +1,5 @@
+imutils
+opencv-contrib-python
+Pillow
+numpy
+opencv-python
