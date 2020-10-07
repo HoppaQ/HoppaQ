@@ -168,7 +168,7 @@ def run_model(net, refine_net, image, filename):
     mask_file = result_folder + "/res_" + filename + '_mask.jpg'
     cv2.imwrite(mask_file, score_text)
     print("Running model on image ")
-    file_utils.saveResult(image_path, image[:,:,::-1], polys, dirname=result_folder)
+    file_utils.saveResult(filename, image[:,:,::-1], polys, dirname=result_folder)
 
     print("elapsed time : {}s".format(time.time() - t))
 

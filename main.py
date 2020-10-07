@@ -26,7 +26,7 @@ from PIL import Image
 import sys
 from inspect import getsourcefile
 
-
+import _thread
 sys.path.append(os.path.abspath(os.path.join('', 'CRAFTpytorch/')))
 
 # print(sys.path	)
@@ -57,8 +57,10 @@ def motion_detector(vs, reduction, min_area, net, refine_net):
 	filename = "image_crop_number"
 	# f = open("Cropped_images/" + filename)
 	ctr = 0
-
+	images = []
 	while True:
+
+		
 		ctr+=1
 		_,frame = vs.read()
 		thresh = reduction.apply(frame)
@@ -89,10 +91,33 @@ def motion_detector(vs, reduction, min_area, net, refine_net):
 		# print(frame.shape)
 		crop_img = frame[y1:y1+h1, x1:x1+w1,:]
 		cv2.imshow("cropped", crop_img)
-		if(crop_img.shape[0] > 40 and crop_img.shape[1] > 40):
+		images.append(crop_img)
+		# if(crop_img.shape[0] > 40 and crop_img.shape[1] > 40):
+		if(len(images) > 40):
+
+			max_size = 0
+			im = 0
+			im_l = 0
+			im_r = 0
+			for i in range(len(images)):
+				if(images[i].shape[0]*images[i].shape[1] >= max_size):
+					max_size = images[i].shape[0]*images[i].shape[1] 
+					im = images[i]
+					try:
+						im_l = images[i-1]
+					except:
+						im_l = [0]
+					try:
+						im_r = images[i+1]
+					except:
+						im_r = [0]
 			filename = filename[:-len(str(ctr))] + str(ctr)
 			# cv2.imwrite("Cropped_images/" + filename + ".jpg", crop_img)
-			image_processing(crop_img,filename, net, refine_net)
+			
+			if(im.shape[0] > 50 and im.shape[1] > 50):
+				print(im)
+				image_processing(im,filename, net, refine_net)
+				images = []
 
 		# show the frame and record if the user presses a key
 		cv2.imshow("Security Feed", frame)
@@ -114,15 +139,15 @@ def clearn_up():
 
 def image_processing(image, filename, net, refine_net):
 
-    kernel = np.array([[-1, -1, -1], 
-                   [-1, 9,-1], 
-                   [-1, -1, -1]])
+    kernel = np.array([[0, -1, 0], 
+                   [-1, 5,-1], 
+                   [0, -1, 0]])
 
     # Sharpen image
     image_sharp = cv2.filter2D(image, -1, kernel)
 
     cv2.imshow("sharpened_image", image_sharp)
-    test.run_model(net,refine_net, image_sharp, filename)
+    _thread.start_new_thread(test.run_model,(net,refine_net, image_sharp, filename))
 
 
 
