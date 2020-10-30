@@ -31,7 +31,8 @@ def demo(opt):
     # load model
     print('loading pretrained model from %s' % opt.saved_model)
     model.load_state_dict(torch.load(opt.saved_model, map_location=device))
-
+    model.eval()
+    
     # prepare data. two demo images from https://github.com/bgshih/crnn#run-demo
     AlignCollate_demo = AlignCollate(imgH=opt.imgH, imgW=opt.imgW, keep_ratio_with_pad=opt.PAD)
     demo_data = RawDataset(root=opt.image_folder, opt=opt)  # use RawDataset
@@ -42,7 +43,7 @@ def demo(opt):
         collate_fn=AlignCollate_demo, pin_memory=True)
 
     # predict
-    model.eval()
+    
     with torch.no_grad():
         for image_tensors, image_path_list in demo_loader:
             batch_size = image_tensors.size(0)
