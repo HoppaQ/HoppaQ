@@ -25,14 +25,15 @@ import os
 from PIL import Image
 import sys
 from inspect import getsourcefile
-
+from time import time
 import _thread
 sys.path.append(os.path.abspath(os.path.join('', 'CRAFTpytorch/')))
-
+sys.path.append(os.path.abspath(os.path.join('', 'deep_text_recognition_benchmark/')))
 # print(sys.path	)
 # import 
 from  CRAFTpytorch import test
-
+from deep_text_recognition_benchmark import  demo,dataset,model,utils
+start = time()
 def initialize():
 	# construct the argument parser and parse the arguments
 	ap = argparse.ArgumentParser()
@@ -50,17 +51,25 @@ def initialize():
 	reduction = cv2.bgsegm.createBackgroundSubtractorGSOC(replaceRate = 0.035) #initial frames very high, but vert stable
 
 	net, refine_net = test.load_main()
-	return vs, reduction, min_area, net, refine_net
+	model,converter = demo.load_model()
+	return vs, reduction, min_area, net, refine_net,model,converter
 
-def motion_detector(vs, reduction, min_area, net, refine_net):
+def motion_detector(vs, reduction, min_area, net, refine_net,model,converter):
 	# loop over the frames of the video
 	filename = "image_crop_number"
 	# f = open("Cropped_images/" + filename)
 	ctr = 0
 	images = []
+	# os.makedirs(os.path.abspath(os.path.join('', 'result')))
+
 	while True:
 
-		
+
+		# if (int(time() - start)%90 == 0):
+		# 	os.rmdir(os.path.abspath(os.path.join('', 'result')))
+		# 	os.makedirs(os.path.abspath(os.path.join('', 'result')))
+
+
 		ctr+=1
 		_,frame = vs.read()
 		thresh = reduction.apply(frame)
@@ -115,8 +124,8 @@ def motion_detector(vs, reduction, min_area, net, refine_net):
 			# cv2.imwrite("Cropped_images/" + filename + ".jpg", crop_img)
 			
 			if(im.shape[0] > 50 and im.shape[1] > 50):
-				print(im)
-				image_processing(im,filename, net, refine_net)
+				# print(im)
+				image_processing(im,filename, net, refine_net,model,converter)
 				images = []
 
 		# show the frame and record if the user presses a key
@@ -137,22 +146,25 @@ def clearn_up():
 	vs.stop() if args.get("video", None) is None else vs.release()
 	cv2.destroyAllWindows()
 
-def image_processing(image, filename, net, refine_net):
+def image_processing(image, filename, net, refine_net,model,converter):
 
-    kernel = np.array([[0, -1, 0], 
-                   [-1, 5,-1], 
-                   [0, -1, 0]])
+    # kernel = np.array([[0, -1, 0], 
+    #                [-1, 5,-1], 
+    #                [0, -1, 0]])
 
     # Sharpen image
-    image_sharp = cv2.filter2D(image, -1, kernel)
+    # image_sharp = cv2.filter2D(image, -1, kernel)
+    image_sharp = image
 
     cv2.imshow("sharpened_image", image_sharp)
-    _thread.start_new_thread(test.run_model,(net,refine_net, image_sharp, filename))
+    # _thread.start_new_thread(test.run_model,(net,refine_net, image_sharp, filename,model,converter))
+    test.run_model(net,refine_net, image_sharp, filename,model,converter)
 
 
 
 
 if __name__ == "__main__":
-	vs, reduction, min_area, net, refine_net = initialize()
-	motion_detector(vs, reduction, min_area, net, refine_net)
+	vs, reduction, min_area, net, refine_net,model,converter = initialize()
+
+	motion_detector(vs, reduction, min_area, net, refine_net,model,converter)
 	cleanup()

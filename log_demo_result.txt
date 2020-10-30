@@ -1,0 +1,976 @@
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_numb82	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_numb41	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_num145	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_num186	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_num268	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_num227	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_num309	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_num731	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_num772	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_num813	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+./result/image_crop_nu1056	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\image_crop_numb82.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\image_crop_numb41.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\image_crop_numb41.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\image_crop_numb82.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\image_crop_num123.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\image_crop_num164.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	propencent               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	i                        	0.8234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	propencent               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241.jpg	internationalize         	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241_mask.jpg	a                        	0.2102
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	i                        	0.8234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	propencent               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241.jpg	internationalize         	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241_mask.jpg	a                        	0.2102
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282.jpg	and                      	0.0205
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282_mask.jpg	the                      	0.1232
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	i                        	0.8234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	propencent               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241.jpg	internationalize         	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241_mask.jpg	a                        	0.2102
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282.jpg	and                      	0.0205
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282_mask.jpg	the                      	0.1232
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323.jpg	restating                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323_mask.jpg	mistraperation           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	i                        	0.8234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	propencent               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241.jpg	internationalize         	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241_mask.jpg	a                        	0.2102
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282.jpg	and                      	0.0205
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282_mask.jpg	the                      	0.1232
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323.jpg	restating                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323_mask.jpg	mistraperation           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num364.jpg	furence                  	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num364_mask.jpg	conconcentual            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	i                        	0.8234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	propencent               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241.jpg	internationalize         	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241_mask.jpg	a                        	0.2102
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282.jpg	and                      	0.0205
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282_mask.jpg	the                      	0.1232
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323.jpg	restating                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323_mask.jpg	mistraperation           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num364.jpg	furence                  	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num364_mask.jpg	conconcentual            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num405.jpg	constructionalizes       	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num405_mask.jpg	consuptenting            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	i                        	0.8234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	propencent               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241.jpg	internationalize         	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241_mask.jpg	a                        	0.2102
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282.jpg	and                      	0.0205
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282_mask.jpg	the                      	0.1232
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323.jpg	restating                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323_mask.jpg	mistraperation           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num364.jpg	furence                  	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num364_mask.jpg	conconcentual            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num405.jpg	constructionalizes       	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num405_mask.jpg	consuptenting            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num446.jpg	state                    	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num446_mask.jpg	sure                     	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	i                        	0.8234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	propencent               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241.jpg	internationalize         	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num241_mask.jpg	a                        	0.2102
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282.jpg	and                      	0.0205
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num282_mask.jpg	the                      	0.1232
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323.jpg	restating                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num323_mask.jpg	mistraperation           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num364.jpg	furence                  	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num364_mask.jpg	conconcentual            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num405.jpg	constructionalizes       	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num405_mask.jpg	consuptenting            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num446.jpg	state                    	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num446_mask.jpg	sure                     	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num487.jpg	surenching               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num487_mask.jpg	state                    	0.0009
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	i                        	0.8234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0271
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2097
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0271
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2097
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	will                     	0.2919
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	supporting               	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	consupted                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptorations          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0271
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2097
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	will                     	0.2919
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	supporting               	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	consupted                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptorations          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	for                      	0.3973
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0196
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0271
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2097
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	will                     	0.2919
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	supporting               	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	conscont                 	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	overagations             	0.0010
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	conscont                 	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	overagations             	0.0010
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	connectops               	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversimentions           	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	some                     	0.0024
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	a                        	0.2100
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	conscont                 	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	overagations             	0.0010
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	connectops               	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversimentions           	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	some                     	0.0024
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	a                        	0.2100
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	the                      	0.1531
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	a                        	0.2105
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.0533
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	connectops               	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversimentions           	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	some                     	0.0024
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	a                        	0.2100
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	the                      	0.1531
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	a                        	0.2105
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.0533
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	and                      	0.0091
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	a                        	0.2292
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	ovacome                  	0.0551
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	contraching              	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	the                      	0.1531
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	a                        	0.2105
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.0533
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	and                      	0.0091
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	a                        	0.2292
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	ovacome                  	0.0551
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	contraching              	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	advacoma                 	0.0058
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	consubulation            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.0533
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	and                      	0.0091
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	a                        	0.2292
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	ovacome                  	0.0551
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	contraching              	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	advacoma                 	0.0058
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	consubulation            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0148
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1212
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	and                      	0.0091
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	a                        	0.2292
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	ovacome                  	0.0551
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	contraching              	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	advacoma                 	0.0058
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	consubulation            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0148
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1212
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	and                      	0.0156
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consingliness            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	sincollate               	0.0026
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	concomplising            	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	advacoma                 	0.0058
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	consubulation            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0148
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1212
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	and                      	0.0156
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consingliness            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	sincollate               	0.0026
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	concomplising            	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	monacop                  	0.3107
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	concigatable             	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0148
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1212
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	and                      	0.0156
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consingliness            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	sincollate               	0.0026
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	concomplising            	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	monacop                  	0.3107
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	concigatable             	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205.jpg	i                        	0.4100
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205_mask.jpg	a                        	0.2253
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0148
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1212
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	and                      	0.0156
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consingliness            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	monacop                  	0.3107
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0243
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1298
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	monacop                  	0.3107
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0879
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2285
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	monacop                  	0.3107
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	construction             	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1231
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	monacop                  	0.3107
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	construction             	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1231
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	souncons                 	0.0056
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conservations            	0.0002
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	state                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	somenocous               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	monacop                  	0.3107
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	construction             	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1231
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	souncons                 	0.0056
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conservations            	0.0002
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	state                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	somenocous               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	construction             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	the                      	0.1211
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	construction             	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1231
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	souncons                 	0.0056
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conservations            	0.0002
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	state                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	somenocous               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	construction             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	the                      	0.1211
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num224.jpg	i                        	0.3756
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num224_mask.jpg	a                        	0.2125
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1349
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	souncons                 	0.0056
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conservations            	0.0002
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	state                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	somenocous               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	construction             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	the                      	0.1211
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num224.jpg	i                        	0.3756
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num224_mask.jpg	a                        	0.2125
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	states                   	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1260
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	souncons                 	0.0056
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conservations            	0.0002
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	state                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	somenocous               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	construction             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	the                      	0.1211
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num224.jpg	i                        	0.3756
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num224_mask.jpg	a                        	0.2125
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	surranges                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1074
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	souncons                 	0.0056
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conservations            	0.0002
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	states                   	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1095
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	states                   	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1232
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	should                   	0.0016
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2199
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	should                   	0.0016
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2199
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	resuncomp                	0.0019
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consupporting            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	instancoma               	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	overamplations           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	should                   	0.0016
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2199
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	resuncomp                	0.0019
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consupporting            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0020
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1339
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0020
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1339
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	preancopes               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	i                        	0.3535
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conserving               	0.0001
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	promecops                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	if                       	0.3142
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptorations          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0020
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1339
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	preancopes               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	i                        	0.3535
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conserving               	0.0001
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	promecops                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	if                       	0.3142
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptorations          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	state                    	0.0023
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	the                      	0.1416
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0020
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1339
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	preancopes               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	i                        	0.3535
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conserving               	0.0001
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	promecops                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	if                       	0.3142
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptorations          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	state                    	0.0023
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	the                      	0.1416
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205.jpg	the                      	0.1750
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205_mask.jpg	a                        	0.2168
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0020
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1339
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	preancopes               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	i                        	0.3535
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conserving               	0.0001
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0008
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0230
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0202
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0202
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	connacond                	0.0002
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	i                        	0.4881
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_4.jpg	a                        	0.4059
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_5.jpg	i                        	0.4449
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_6.jpg	i                        	0.3774
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	overstances              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	internecting             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	if                       	0.1322
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_4.jpg	i                        	0.4640
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	conservations            	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0006
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0202
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	connacond                	0.0002
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	i                        	0.4881
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_4.jpg	a                        	0.4059
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_5.jpg	i                        	0.4449
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_6.jpg	i                        	0.3774
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	overstances              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0011
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0197
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0011
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0197
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	supporting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	internation              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	contralization           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	i                        	0.2518
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	i                        	0.4061
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_6.jpg	a                        	0.4124
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_7.jpg	the                      	0.1453
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_8.jpg	a                        	0.3515
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	signationalizes          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0011
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0197
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	supporting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	internation              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	contralization           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	i                        	0.2518
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	i                        	0.4061
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_6.jpg	a                        	0.4124
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_7.jpg	the                      	0.1453
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_8.jpg	a                        	0.3515
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	signationalizes          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	arging                   	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_2.jpg	i                        	0.4238
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_4.jpg	i                        	0.5443
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	consuptations            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0011
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0197
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	supporting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	internation              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	contralization           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	i                        	0.2518
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	i                        	0.4061
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_6.jpg	a                        	0.4124
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_7.jpg	the                      	0.1453
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_8.jpg	a                        	0.3515
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9690
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	signationalizes          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	arging                   	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_2.jpg	i                        	0.4238
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_4.jpg	i                        	0.5443
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	consuptations            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205.jpg	substating               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205_mask.jpg	the                      	0.0656
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	propent                  	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1249
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	supporting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	internation              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	contralization           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	i                        	0.2518
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	i                        	0.4061
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_6.jpg	a                        	0.4124
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_7.jpg	the                      	0.1453
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_8.jpg	a                        	0.3515
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9690
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	signationalizes          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	arging                   	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_2.jpg	i                        	0.4238
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_4.jpg	i                        	0.5443
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	consuptations            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205.jpg	substating               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205_mask.jpg	the                      	0.0656
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	propent                  	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1249
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	consurcaming             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	the                      	0.1073
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	and                      	0.0370
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_4.jpg	a                        	0.2475
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_5.jpg	the                      	0.1541
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_6.jpg	and                      	0.0370
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptations            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	the                      	0.0825
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	the                      	0.2967
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	i                        	0.2518
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	i                        	0.4061
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_6.jpg	a                        	0.4124
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_7.jpg	the                      	0.1453
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_8.jpg	a                        	0.3515
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9690
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	and                      	0.0052
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	arging                   	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_2.jpg	i                        	0.4238
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_4.jpg	i                        	0.5443
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	consuptations            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205.jpg	substating               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205_mask.jpg	the                      	0.0656
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	propent                  	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1249
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	consurcaming             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	the                      	0.1073
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	and                      	0.0370
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_4.jpg	a                        	0.2475
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_5.jpg	the                      	0.1541
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_6.jpg	and                      	0.0370
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptations            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	the                      	0.0825
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	the                      	0.2967
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	i                        	0.2518
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	i                        	0.4061
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_6.jpg	a                        	0.4124
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_7.jpg	the                      	0.1453
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_8.jpg	a                        	0.3515
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_123.jpg	monaco                   	0.9690
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	and                      	0.0052
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	the                      	0.0431
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_2.jpg	i                        	0.4238
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_4.jpg	i                        	0.5443
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	the                      	0.1208
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205.jpg	substating               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num205_mask.jpg	the                      	0.0656
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	propent                  	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1249
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	consurcaming             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	the                      	0.1073
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	and                      	0.0370
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_4.jpg	a                        	0.2475
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_5.jpg	the                      	0.1541
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_6.jpg	and                      	0.0370
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptations            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1154
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1154
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	decincomating            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	the                      	0.1745
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_4.jpg	a                        	0.7182
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptications          	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	consurgeners             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	the                      	0.1654
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	a                        	0.4305
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_6.jpg	is                       	0.0661
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_7.jpg	a                        	0.2706
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_8.jpg	a                        	0.3430
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptations            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1154
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	decincomating            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	the                      	0.1745
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_4.jpg	a                        	0.7182
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptications          	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	consurgeners             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	the                      	0.1654
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	a                        	0.4305
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_6.jpg	is                       	0.0661
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_7.jpg	a                        	0.2706
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_8.jpg	a                        	0.3430
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptations            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	the                      	0.0234
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	the                      	0.1229
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	sure                     	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1154
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	decincomating            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	the                      	0.1745
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_4.jpg	a                        	0.7182
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptications          	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0251
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2130
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	apr                      	0.0172
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2171
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	apr                      	0.0172
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2171
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	consurated               	0.0002
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	consurated               	0.0002
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	consurations             	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	consurcand               	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	consurated               	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consumporations          	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	constining               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	constincent              	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	consurational            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	overstrates              	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	apr                      	0.0172
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2171
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	consurated               	0.0002
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	consurated               	0.0002
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	consurations             	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	consurcand               	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	consurated               	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consumporations          	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1405
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1405
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	exconcent                	0.0017
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	exiscincome              	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	contrincoman             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	disincome                	0.0028
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consincenting            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	reconnacing              	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	reconnacents             	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	reconnacing              	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	reconcentable            	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_3.jpg	reconnacing              	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_4.jpg	reconnacents             	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_5.jpg	reconnacing              	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptications          	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1405
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	exconcent                	0.0017
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	exiscincome              	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	contrincoman             	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	disincome                	0.0028
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consincenting            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0008
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1247
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0008
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1246
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	state                    	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	the                      	0.1241
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	i                        	0.2818
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptations            	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0147
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1575
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	state                    	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	the                      	0.1241
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	i                        	0.2818
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptations            	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0147
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1575
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	mowncomp                 	0.0834
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	parle                    	0.9997
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	anyonetically            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	392                      	0.2423
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	extra                    	1.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptorations          	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	connaciming              	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	parle                    	0.9959
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	nanally                  	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	39                       	0.9993
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_3.jpg	of                       	0.4797
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_4.jpg	extra                    	0.9999
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptorating           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0147
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1575
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	mowncomp                 	0.0834
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	parle                    	0.9997
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	anyonetically            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	392                      	0.2422
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	extra                    	1.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptorations          	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	connaciming              	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	parle                    	0.9959
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	nanally                  	0.0004
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	39                       	0.9993
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_3.jpg	of                       	0.4797
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_4.jpg	extra                    	0.9999
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptorating           	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	contant                  	0.0002
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_0.jpg	facc                     	0.2816
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	con                      	0.0171
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	and                      	0.0147
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.1575
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	mowncomp                 	0.0834
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	parle                    	0.9997
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	anyonetically            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	392                      	0.2423
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	extra                    	1.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptorations          	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0499
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0499
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	insurcent                	0.0062
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	parle                    	0.9793
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	make                     	0.1237
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	39                       	0.9980
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	extra                    	0.9997
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conservations            	0.0001
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	deconcent                	0.0044
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	the                      	0.1441
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	39                       	0.9979
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consuptent               	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0007
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	and                      	0.0499
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	insurcent                	0.0062
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	parle                    	0.9793
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	make                     	0.1237
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	39                       	0.9980
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	extra                    	0.9997
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	conservations            	0.0001
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0008
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.0254
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0008
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.0254
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	consing                  	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	monaco                   	0.9998
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	39                       	0.9991
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	extra                    	0.9977
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptenting            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	visionages               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	parle                    	0.9985
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_1.jpg	monaco                   	0.9999
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_2.jpg	39                       	0.9988
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_3.jpg	extra                    	0.9994
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_4.jpg	wasia                    	0.0124
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consupporting            	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	state                    	0.0008
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	the                      	0.0254
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	consing                  	0.0003
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	monaco                   	0.9998
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	39                       	0.9991
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	extra                    	0.9977
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	consuptenting            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123.jpg	visionages               	0.0000
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_0.jpg	parle                    	0.9985
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_1.jpg	monaco                   	0.9999
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_2.jpg	39                       	0.9988
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_3.jpg	extra                    	0.9994
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_4.jpg	wasia                    	0.0124
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_mask.jpg	consupporting            	0.0000
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num164.jpg	state                    	0.0005
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num164_mask.jpg	the                      	0.1164
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb41.jpg	proposition              	0.0000
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb41_mask.jpg	the                      	0.0474
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82.jpg	consing                  	0.0003
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_0.jpg	monaco                   	0.9998
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_1.jpg	39                       	0.9991
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_2.jpg	extra                    	0.9977
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_mask.jpg	consuptenting            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123.jpg	visionages               	0.0000
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_0.jpg	parle                    	0.9985
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_1.jpg	monaco                   	0.9999
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_2.jpg	39                       	0.9988
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_3.jpg	extra                    	0.9994
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_4.jpg	wasia                    	0.0124
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num123_mask.jpg	consupporting            	0.0000
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num164.jpg	state                    	0.0005
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_num164_mask.jpg	the                      	0.1164
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb41.jpg	proposition              	0.0000
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb41_mask.jpg	the                      	0.0474
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82.jpg	remouncement             	0.0013
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_0.jpg	parle                    	0.9991
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_1.jpg	monaco                   	0.9981
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_2.jpg	392                      	0.3553
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_3.jpg	extra                    	0.9999
+E:\BTP_WORKS\HoppaQ_Copy\result\res_image_crop_numb82_mask.jpg	oversandentions          	0.0000
