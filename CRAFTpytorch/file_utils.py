@@ -3,7 +3,7 @@ import os
 import numpy as np
 import cv2
 import imgproc
-
+import copy
 # borrowed from https://github.com/lengstrom/fast-style-transfer/blob/master/src/utils.py
 def get_files(img_dir):
     imgs, masks, xmls = list_files(img_dir)
@@ -41,7 +41,7 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
             None
         """
         img = np.array(img)
-
+        deep_image = copy.deepcopy(img)
         # make result file list
         filename, file_ext = os.path.splitext(os.path.basename(img_file))
 
@@ -59,7 +59,23 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
                 f.write(strResult)
 
                 poly = poly.reshape(-1, 2)
-                cv2.polylines(img, [poly.reshape((-1, 1, 2))], True, color=(0, 0, 255), thickness=2)
+                curr_image = copy.deepcopy(deep_image)
+                cv2.polylines(curr_image, [poly.reshape((-1, 1, 2))], True, color=(0, 0, 255), thickness=2)
+                print("poly " + str(i) + " = " ,  poly)
+                x1,y1 = poly[0,0], poly[0,1]
+                x2,y2 = poly[1,0], poly[1,1]
+                x3,y3 = poly[2,0], poly[2,1]
+                x4,y4 = poly[3,0], poly[3,1]
+
+                width = max(x2,x3) - min(x1,x4)
+                height =  max(y4,y3) - min(y1,y2)
+                min_x = min(x1,x2,x3,x4)
+                max_x = max(x1,x2,x3,x4)
+                min_y = min(y1,y2,y3,y4)
+                max_y = max(y1,y2,y3,y4)
+
+
+                cv2.imwrite(dirname + "res_" + filename + "_" + str(i) + '.jpg', curr_image[min_y:max_y + 1, min_x:max_x + 1])
                 ptColor = (0, 255, 255)
                 if verticals is not None:
                     if verticals[i]:

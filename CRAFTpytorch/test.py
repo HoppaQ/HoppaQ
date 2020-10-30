@@ -26,6 +26,10 @@ import json
 import zipfile
 
 from craft import CRAFT
+sys.path.append(os.path.abspath(os.path.join('', '../deep_text_recognition_benchmark/')))
+
+from deep_text_recognition_benchmark import demo,dataset,model,utils
+
 
 parent_path = os.path.dirname(os.path.abspath(__file__))
 
@@ -153,7 +157,7 @@ def load_main():
 
     return net, refine_net
 
-def run_model(net, refine_net, image, filename):
+def run_model(net, refine_net, image, filename,model,converter):
     t = time.time()
 
     # load data
@@ -162,14 +166,39 @@ def run_model(net, refine_net, image, filename):
     # image = imgproc.loadImage(image_path)
     # print(image.shape)
     bboxes, polys, score_text = test_net(net, image, args.text_threshold, args.link_threshold, args.low_text, args.cuda, args.poly, refine_net)
+    print("bounding-boxes for image : ", filename, polys, bboxes)
+    # cv2.imshow(image)
+    print(image)
+    print(image.shape)
+    print(len(polys))
+    for i in range(len(polys)):
+        cor = polys[i]
+        x1,y1 = cor[0,0], cor[0,1]
+        x2,y2 = cor[1,0], cor[1,1]
+        x3,y3 = cor[2,0], cor[2,1]
+        x4,y4 = cor[3,0], cor[3,1]
+        top_left_x = int(x1)
+        top_left_y = int(y1)
+        bot_right_x = int(x4)
+        bot_right_y = int(y4)
+        print("top_left_x ", top_left_x)
+        print("top_left_y ", top_left_y)
+        print("bot_right_x ", bot_right_x)
+        print("bot_right_y ", bot_right_y)
 
+        if(bot_right_y - top_left_y > 2 and bot_right_x - top_left_x > 2 ):
+            curr_image = image[top_left_x:bot_right_x+1,top_left_y:bot_right_y+1, ::-1]
+            print(bot_right_y - top_left_y,bot_right_x - top_left_x,curr_image)
+            # cv2.imshow('image',curr_image)
+            # cv2.imwrite(result_folder + "/res_" + filename + "_" + str(i) + '.jpg', curr_image)
     # save score text
     # filename, file_ext = os.path.splitext(os.path.basename(image_path))
     mask_file = result_folder + "/res_" + filename + '_mask.jpg'
     cv2.imwrite(mask_file, score_text)
     print("Running model on image ")
+    cv2.imshow("Image", image)
     file_utils.saveResult(filename, image[:,:,::-1], polys, dirname=result_folder)
-
+    demo.run_recog_model(model,filename,converter)
     print("elapsed time : {}s".format(time.time() - t))
 
 # if __name__ == '__main__':
