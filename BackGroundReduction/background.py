@@ -7,7 +7,7 @@ import argparse
 # parser.add_argument('--algo', type=str, help='Background subtraction method (KNN, MOG2).', default='MOG2')
 # args = parser.parse_args()
 # if args.algo == 'MOG2':
-backSub = cv.createBackgroundSubtractorMOG2(varThreshold=40,detectShadows=False)
+backSub = cv2.bgsegm.createBackgroundSubtractorGSOC(replaceRate = 0.035) 
 # else:
 #     backSub = cv.createBackgroundSubtractorKNN()
 capture = cv.VideoCapture(0)
