@@ -1,5 +1,5 @@
 from __future__ import print_function
-import cv2 as cv
+import cv2
 import argparse
 # parser = argparse.ArgumentParser(description='This program shows how to use background subtraction methods provided by \
 #                                               OpenCV. You can process both videos and images.')
@@ -7,7 +7,7 @@ import argparse
 # parser.add_argument('--algo', type=str, help='Background subtraction method (KNN, MOG2).', default='MOG2')
 # args = parser.parse_args()
 # if args.algo == 'MOG2':
-backSub = cv2.bgsegm.createBackgroundSubtractorGSOC(replaceRate = 0.035) 
+backSub = cv2.bgseg.createBackgroundSubtractorGSOC(replaceRate = 0.035) 
 # else:
 #     backSub = cv.createBackgroundSubtractorKNN()
 capture = cv.VideoCapture(0)
