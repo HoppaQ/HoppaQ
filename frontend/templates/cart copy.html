@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Projectables - My Cart </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="shortcut icon" type="image/x-icon" href="static/img/favicon.ico">
+
+  <!-- CSS here -->
+      <link rel="stylesheet" href="static/css/bootstrap.min.css">
+      <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="static/css/flaticon.css">
+      <link rel="stylesheet" href="static/css/slicknav.css">
+      <link rel="stylesheet" href="static/css/animate.min.css">
+      <link rel="stylesheet" href="static/css/magnific-popup.css">
+      <link rel="stylesheet" href="static/css/fontawesome-all.min.css">
+      <link rel="stylesheet" href="static/css/themify-icons.css">
+      <link rel="stylesheet" href="static/css/slick.css">
+      <link rel="stylesheet" href="static/css/nice-select.css">
+      <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- Header Start -->
+  {% include 'ecom/navbar.html' %}
+    <!-- Header End -->
+  </header>
+
+  <!-- slider Area Start-->
+  <div class="slider-area ">
+    <!-- Mobile Menu -->
+    <div class="single-slider slider-height2 d-flex align-items-center" data-background="static/img/hero/category.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap text-center">
+                        <h2>Shopping Cart</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- slider Area End-->
+
+  <!--================Cart Area =================-->
+  <section class="cart_area section_padding">
+    <div class="container">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h6 style="text-align:center;" class="panel-title">My Cart</h6>
+        </div>
+        <table class="table table-hover" id="dev-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Image</th>
+              <th>Price</th>
+              <th>Description</th>
+              <th>Remove From Cart</th>
+    
+            </tr>
+          </thead>
+          {% for p in products %}
+          {% if p %}
+    
+          <tr>
+            <td> {{p.name}}</td>
+            <td> <img src="{% static p.product_image.url %}" alt="Profile Pic" height="40px" width="40px" /></td>
+            <td>{{p.price}}</td>
+            <td>{{p.description}}</td>
+    
+            <td><a class="btn btn-danger btn-xs" href="{% url 'remove-from-cart' p.id  %}"><span class="glyphicon glyphicon-trash"></span></a></td>
+    
+          </tr>
+          {%else%}
+          <br><br><br>
+          <h1>no products</h1>
+          {% endif %}
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+  </section>
+  <!--================End Cart Area =================-->
+
+<footer>
+    <!-- Footer Start-->
+    <div class="footer-area footer-padding2">
+        <div class="container">
+            <!-- Footer bottom -->
+            <div class="row">
+             <div class="col-xl-7 col-lg-7 col-md-7">
+                 <div class="footer-copy-right">
+                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>                   </div>
+             </div>
+              <div class="col-xl-5 col-lg-5 col-md-5">
+                 <div class="footer-copy-right f-right">
+                     <!-- social -->
+                     <div class="footer-social">
+                         <a href="#"><i class="fab fa-twitter"></i></a>
+                         <a href="#"><i class="fab fa-facebook-f"></i></a>
+                         <a href="#"><i class="fab fa-behance"></i></a>
+                         <a href="#"><i class="fas fa-globe"></i></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        </div>
+    </div>
+
+    <!-- Footer End-->
+</footer>
+
+<!-- JS here -->
+
+    <!-- All JS Custom Plugins Link Here here -->
+    <script src="./static/js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./static/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./static/js/popper.min.js"></script>
+    <script src="./static/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./static/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./static/js/owl.carousel.min.js"></script>
+    <script src="./static/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./static/js/wow.min.js"></script>
+    <script src="./static/js/animated.headline.js"></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="./static/js/jquery.scrollUp.min.js"></script>
+    <script src="./static/js/jquery.nice-select.min.js"></script>
+    <script src="./static/js/jquery.sticky.js"></script>
+    <script src="./static/js/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./static/js/contact.js"></script>
+    <script src="./static/js/jquery.form.js"></script>
+    <script src="./static/js/jquery.validate.min.js"></script>
+    <script src="./static/js/mail-script.js"></script>
+    <script src="./static/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./static/js/plugins.js"></script>
+    <script src="./static/js/main.js"></script>
+</body>
+
+</html>

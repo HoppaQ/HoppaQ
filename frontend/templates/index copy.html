@@ -1,0 +1,411 @@
+<!-- abdkankmna -->
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Projectables</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        * {box-sizing: border-box;}
+          .image_box {
+            position: relative;
+            width: 20%;
+            height: 347px;
+            max-width: 350px;
+          }
+          .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            transition: .5s ease;
+            opacity:0;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+          }
+          .image_over {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+          .image_box:hover .overlay {
+            opacity: 1;
+          }
+        </style>
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="static/img/favicon.ico">
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="static/css/bootstrap.min.css">
+            <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="static/css/flaticon.css">
+            <link rel="stylesheet" href="static/css/slicknav.css">
+            <link rel="stylesheet" href="static/css/animate.min.css">
+            <link rel="stylesheet" href="static/css/magnific-popup.css">
+            <link rel="stylesheet" href="static/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="static/css/themify-icons.css">
+            <link rel="stylesheet" href="static/css/slick.css">
+            <link rel="stylesheet" href="static/css/nice-select.css">
+            <link rel="stylesheet" href="static/css/style.css">
+   </head>
+
+   <body>
+
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="static/img/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    {% include "ecom/navbar.html" %}
+    <main>
+
+      <!-- slider Area Start -->
+      <div class="slider-area ">
+          <!-- Mobile Menu -->
+          <div class="slider-active slick-initialized slick-slider">
+              <div class="slick-list draggable" tabindex="0">
+                <div class="slick-track" style="opacity: 1; width: 1841px;">
+                </div>
+              <div class="single-slider slider-height slick-slide slick-active" data-background="static/img/index_page/frontCover.png" data-slick-index="0" style="width: 1841px;height: 1000px; position: relative; left: 0px; top: 0px; z-index: 900; opacity: 1; background-image: url(&quot;static/img/index_page/frontCover.png&quot;);">
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- slider Area End-->
+      <!-- Category Area Start-->
+      <section class="category-area section-padding30">
+          <div class="container-fluid">
+              <!-- Section Tittle -->
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="section-tittle text-center mb-85">
+                          <h2>Shop by Category</h2>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xl-4 col-lg-6">
+                      <div class="single-category mb-30">
+                          <div class="category-img">
+                              <img href ="{{ url_for ('product_list', catX = 1) }}" src="static/img/categori/cat1.png" alt="">
+                          </div>
+                      </div>
+                  </div>
+                   <div class="col-xl-4 col-lg-6">
+                      <div class="single-category mb-30">
+                          <div class="category-img text-center">
+                              <img href = "{{ url_for ('product_list', catX = 5) }}" src="static/img/categori/cat2.png" alt="">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6">
+                      <div class="single-category mb-30">
+                          <div class="category-img">
+                              <img href= "{{ url_for ('product_list', catX = 3) }}" src="static/img/categori/cat3.png" alt="">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Category Area End-->
+      {% block blockname %}
+        {%if products%}
+        <h3 style="text-align:center; color:yellow;">{{word}}</h3>
+        <br>
+        <!-- products data starttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+        <div class="row">
+        
+            {% for p in products %}
+            <!-- card1 -->
+            <div class="column">
+            <div class="container page-wrapper" style="width: 450px;">
+                <div class="page-inner">
+                <div class="row">
+                    <div class="el-wrapper">
+                    <div class="box-up">
+                        <img class="img" src="{% static p.product_image.url %}" alt="product pic" height="300px" width="300px">
+                        <div class="img-info">
+                        <div class="info-inner">
+                            <span style="background-color:#08050a; color:yellow;" class="p-company">{{p.name}}</span>
+        
+                        </div>
+                        <div class="a-size">{{p.description}}</div>
+                        </div>
+                    </div>
+        
+                    <div class="box-down">
+                        <div class="h-bg">
+                        <div class="h-bg-inner"></div>
+                        </div>
+        
+                        <a class="cart" href="{% url 'add-to-cart' p.id  %}">
+                        <span class="price">₹ {{p.price}}</span>
+                        <span class="add-to-cart">
+                            <span class="txt">Add in cart</span>
+                        </span>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        <!-- card1 end -->
+        {% if forloop.counter|divisibleby:"3" %}
+            </div>
+            <div class="row">
+                <br><br><br><br><br>
+        {% endif %}
+        
+        {% endfor %}
+        </div>
+        <!-- products data-->
+        
+        
+        {%else%}
+        <h3 style="text-align:center; color:yellow;">No Search Found</h3>
+        {%endif%}
+    
+        
+    {% endblock blockname %}
+            
+
+      <!-- Latest Products Start -->
+      <section class="latest-product-area padding-bottom">
+          <div class="container">
+              <div class="row product-btn d-flex justify-content-end align-items-end">
+                  <!-- Section Tittle -->
+                  <div class="col-xl-4 col-lg-5 col-md-5">
+                      <div class="section-tittle mb-30">
+                          <h2>Latest Products</h2>
+                      </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-7 col-md-7">
+                      <div class="properties__button f-right">
+                          <!--Nav Button  -->
+                          <!--End Nav Button  -->
+                      </div>
+                  </div>
+              </div>
+              <!-- Nav Card -->
+              <div class="tab-content" id="nav-tabContent">
+                  <!-- card one -->
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                      <div class="row">
+                          <div class="col-xl-4 col-lg-4 col-md-6">
+                              <div class="single-product mb-60">
+                                  <div class="product-img">
+                                      <img src="static/img/product/1.jpg" alt="">
+                                      <div class="new-product">
+                                          <span>New</span>
+                                      </div>
+                                  </div>
+                                  <div class="product-caption">
+                                      <div class="product-ratting">
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                      </div>
+                                      <h4><a href="#">Electric Skateboard</a></h4>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6">
+                              <div class="single-product mb-60">
+                                  <div class="product-img">
+                                      <img src="static/img/product/7.jpg" alt="">
+                                  </div>
+                                  <div class="product-caption">
+                                      <div class="product-ratting">
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                      </div>
+                                      <h4><a href="#">Tasty Cinnamon Rolls</a></h4>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6">
+                              <div class="single-product mb-60">
+                                  <div class="product-img">
+                                      <img src="static/img/product/14.jpg" alt="">
+                                      <div class="new-product">
+                                          <span>New</span>
+                                      </div>
+                                  </div>
+                                  <div class="product-caption">
+                                      <div class="product-ratting">
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                      </div>
+                                      <h4><a href="#">Mini Garden Project</a></h4>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6">
+                              <div class="single-product mb-60">
+                                  <div class="product-img">
+                                      <img src="static/img/product/19.jpg" alt="">
+                                  </div>
+                                  <div class="product-caption">
+                                      <div class="product-ratting">
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                      </div>
+                                      <h4><a href="#">Polymer clay modelling</a></h4>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6">
+                              <div class="single-product mb-60">
+                                  <div class="product-img">
+                                      <img src="static/img/product/25.jpg" alt="">
+                                  </div>
+                                  <div class="product-caption">
+                                      <div class="product-ratting">
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                      </div>
+                                      <h4><a href="#">LEGO Models</a></h4>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6">
+                              <div class="single-product mb-60">
+                                  <div class="product-img">
+                                      <img src="static/img/product/48.jpg" alt="">
+                                      <div class="new-product">
+                                          <span>New</span>
+                                      </div>
+                                  </div>
+                                  <div class="product-caption">
+                                      <div class="product-ratting">
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                          <i class="far fa-star low-star"></i>
+                                      </div>
+                                      <h4><a href="#">Artificial Camera Lights</a></h4>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+              <!-- End Nav Card -->
+          </div>
+      </section>
+      <!-- Latest Products End -->
+      <!-- Gallery Start-->
+      <!-- <div class="gallery-wrapper lf-padding">
+          <div class="gallery-area">
+            <H1><center> Our Team </center></H1>
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="image_box">
+                          <img src="static/img/our_team/kshitij.jpeg" alt="" class = "image_over">
+                          <div class="overlay">
+                            Kshitij Agrawal
+                          </div>
+                      </div>
+                      <div class="image_box">
+                          <img src="static/img/our_team/utsavsingla.jpg" alt="" class="image_over">
+                          <div class="overlay">
+                            Utsav Singla
+                          </div>
+                      </div>
+                      <div class="image_box">
+                          <img src="static/img/our_team/gursimran.jpeg" alt="" class="image_over">
+                          <div class="overlay">
+                            Gursimran Kaur
+                          </div>
+                      </div>
+                      <div class="image_box">
+                          <img src="static/img/our_team/madhav.jpeg" alt="" class="image_over">
+                          <div class="overlay">
+                            Madhav Vats
+                          </div>
+                      </div>
+                      <div class="image_box">
+                          <img src="static/img/our_team/pruthwiraj.jpeg" alt="" class="image_over">
+                          <div class="overlay">
+                            Pruthwiraj Nanda
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div> -->
+      <!-- Gallery End-->
+
+    </main>
+   {% include 'ecom/footer.html' %}
+
+	<!-- JS here -->
+
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./static/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./static/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./static/js/popper.min.js"></script>
+        <script src="./static/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./static/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./static/js/owl.carousel.min.js"></script>
+        <script src="./static/js/slick.min.js"></script>
+
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./static/js/wow.min.js"></script>
+		<script src="./static/js/animated.headline.js"></script>
+        <script src="./static/js/jquery.magnific-popup.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./static/js/jquery.scrollUp.min.js"></script>
+        <script src="./static/js/jquery.nice-select.min.js"></script>
+		<script src="./static/js/jquery.sticky.js"></script>
+
+        <!-- contact js -->
+        <script src="./static/js/contact.js"></script>
+        <script src="./static/js/jquery.form.js"></script>
+        <script src="./static/js/jquery.validate.min.js"></script>
+        <script src="./static/js/mail-script.js"></script>
+        <script src="./static/js/jquery.ajaxchimp.min.js"></script>
+
+		<!-- Jquery Plugins, main Jquery -->
+        <script src="./static/js/plugins.js"></script>
+        <script src="./static/js/main.js"></script>
+
+    </body>
+</html>
