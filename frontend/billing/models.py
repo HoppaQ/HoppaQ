@@ -10,7 +10,7 @@ class Item(models.Model):
     manufactureDate = models.DateField(default=now, blank=True)
 
 class Billing(models.Model):
-    item = models.ForeignKey(Item, on_delete=CASCADE)
+    item = models.ForeignKey(Item, on_delete=models.CASCADE)
     quantity = models.IntegerField(default=1)
     totalPrice = models.FloatField()
     dateOfPurchase = models.DateField(default=now, blank=True)
