@@ -8,4 +8,4 @@ data = {'name':"someProduct",
         'brandName':"someBrand", 
         'price':200,} 
 
-r = requests.post(url = API_ENDPOINT, data = data) 
+r = requests.post(url = API_ENDPOINT, data = data)

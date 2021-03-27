@@ -34,12 +34,13 @@ def getStatusUpdate(request):
         Billing.objects.create(
             item = x,
             quantity = data['quantity'],
-            price = x.price, 
+            totalPrice = x.price, 
             dateOfPurchase = datetime.now())
 
 def cartDetails(request):
-    billing = Billing.objects.filter(dateOfPurchase = datetime.now())
+    billing = Billing.objects.all()
     context = {
         'data':billing
     }
+    print(context)
     return render(request, 'index.html', context)
