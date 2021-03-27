@@ -34,8 +34,12 @@ def getStatusUpdate(request):
         Billing.objects.create(
             item = x,
             quantity = data['quantity'],
-            price = x.price, 
+            totalPrice = x.price, 
             dateOfPurchase = datetime.now())
+    return JsonResponse({ 'status':'done'
+        }
+        )
+    
 
 def cartDetails(request):
     billing = Billing.objects.filter(dateOfPurchase = datetime.now())

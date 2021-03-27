@@ -166,9 +166,9 @@ def run_model(net, refine_net, image, filename,model,converter):
     # image = imgproc.loadImage(image_path)
     # print(image.shape)
     bboxes, polys, score_text = test_net(net, image, args.text_threshold, args.link_threshold, args.low_text, args.cuda, args.poly, refine_net)
-    print("bounding-boxes for image : ", filename, polys, bboxes)
+    # print("bounding-boxes for image : ", filename, polys, bboxes)
     # cv2.imshow(image)
-    print(image)
+    # print(image)
     print(image.shape)
     print(len(polys))
     for i in range(len(polys)):
@@ -181,10 +181,10 @@ def run_model(net, refine_net, image, filename,model,converter):
         top_left_y = int(y1)
         bot_right_x = int(x4)
         bot_right_y = int(y4)
-        print("top_left_x ", top_left_x)
-        print("top_left_y ", top_left_y)
-        print("bot_right_x ", bot_right_x)
-        print("bot_right_y ", bot_right_y)
+        # print("top_left_x ", top_left_x)
+        # print("top_left_y ", top_left_y)
+        # print("bot_right_x ", bot_right_x)
+        # print("bot_right_y ", bot_right_y)
 
         if(bot_right_y - top_left_y > 2 and bot_right_x - top_left_x > 2 ):
             curr_image = image[top_left_x:bot_right_x+1,top_left_y:bot_right_y+1, ::-1]
@@ -198,8 +198,14 @@ def run_model(net, refine_net, image, filename,model,converter):
     print("Running model on image ")
     cv2.imshow("Image", image)
     file_utils.saveResult(filename, image[:,:,::-1], polys, dirname=result_folder)
-    demo.run_recog_model(model,filename,converter)
+    all_img,all_pred,all_confidence_scores = demo.run_recog_model(model,filename,converter)
+
+    # print("Image Names ", all_img)
+    # print("All Predictions ", all_pred)
+    # print("confidence scores", all_confidence_scores)
     print("elapsed time : {}s".format(time.time() - t))
+
+    return all_img, all_pred, all_confidence_scores
 
 # if __name__ == '__main__':
 #     # load net
