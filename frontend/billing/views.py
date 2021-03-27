@@ -36,6 +36,10 @@ def getStatusUpdate(request):
             quantity = data['quantity'],
             totalPrice = x.price, 
             dateOfPurchase = datetime.now())
+    return JsonResponse({ 'status':'done'
+        }
+        )
+    
 
 def cartDetails(request):
     billing = Billing.objects.all()

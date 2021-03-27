@@ -149,3 +149,133 @@ E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate                
 E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9863
 E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9758
 E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversponting             	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	eling                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	mou                      	0.0258
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consupting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	political                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0161
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num564.jpg	in                       	0.0532
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num564_mask.jpg	a                        	0.2114
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num617.jpg	and                      	0.0600
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num617_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	do                       	0.1101
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2216
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	milancous                	0.0648
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	milano                   	0.9982
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate                	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9883
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9649
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversponting             	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	eling                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	mou                      	0.0258
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consupting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	political                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0161
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num417.jpg	the                      	0.1599
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num417_mask.jpg	a                        	0.2165
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num564.jpg	in                       	0.0532
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num564_mask.jpg	a                        	0.2114
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num617.jpg	and                      	0.0600
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num617_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	do                       	0.1101
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2216
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	milancous                	0.0648
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	milano                   	0.9982
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate                	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9883
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9649
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversponting             	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	eling                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	mou                      	0.0258
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consupting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	political                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0161
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num417.jpg	the                      	0.1599
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num417_mask.jpg	a                        	0.2165
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num564.jpg	in                       	0.0532
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num564_mask.jpg	a                        	0.2114
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num617.jpg	and                      	0.0600
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num617_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num970.jpg	internation              	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num970_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	do                       	0.1101
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2216
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	milancous                	0.0648
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	milano                   	0.9982
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate                	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9883
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9648
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversponting             	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	eling                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	mou                      	0.0258
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consupting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	political                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0161
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num417.jpg	the                      	0.1599
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num417_mask.jpg	a                        	0.2165
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num564.jpg	in                       	0.0532
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num564_mask.jpg	a                        	0.2114
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num617.jpg	and                      	0.0600
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num617_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num970.jpg	internation              	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num970_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.1479
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	milancous                	0.0648
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	milano                   	0.9982
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate                	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9883
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9648
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversponting             	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	eling                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	mou                      	0.0258
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consupting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	political                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0161
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num417_mask.jpg	a                        	0.2165
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num896.jpg	the                      	0.0469
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num896_mask.jpg	a                        	0.2070
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num970_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	milancous                	0.0648
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	milano                   	0.9982
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate                	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9883
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9649
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversponting             	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123.jpg	eling                    	0.0005
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_0.jpg	mou                      	0.0258
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num123_mask.jpg	consupting               	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164.jpg	political                	0.0000
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0161
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num417_mask.jpg	a                        	0.2165
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num590.jpg	interning                	0.0001
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num590_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num896.jpg	the                      	0.0469
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num896_mask.jpg	a                        	0.2070
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_num970_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2113
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82.jpg	milancous                	0.0648
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_0.jpg	milano                   	0.9982
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate                	0.9995
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9883
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9649
+E:\BTP_WORKS\HoppaQ\result\res_image_crop_numb82_mask.jpg	oversponting             	0.0000

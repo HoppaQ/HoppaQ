@@ -120,6 +120,9 @@ def run_recog_model(model, filename,converter):
 
             preds_prob = F.softmax(preds, dim=2)
             preds_max_prob, _ = preds_prob.max(dim=2)
+            all_pred = []
+            all_img = []
+            all_confidence_scores = []
             for img_name, pred, pred_max_prob in zip(image_path_list, preds_str, preds_max_prob):
                 if 'Attn' in opt.Prediction:
                     pred_EOS = pred.find('[s]')
@@ -129,9 +132,13 @@ def run_recog_model(model, filename,converter):
                 # calculate confidence score (= multiply of pred_max_prob)
                 confidence_score = pred_max_prob.cumprod(dim=0)[-1]
 
-                print(f'{img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}')
+                # print(f'{img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}')
+                all_img.append(img_name)
+                all_pred.append(pred)
+                all_confidence_scores.append(confidence_score)
                 log.write(f'{img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}\n')
 
+            return (all_img,all_pred,all_confidence_scores)
             log.close()
 
 def demo(opt):

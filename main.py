@@ -12,6 +12,7 @@ import sys
 from inspect import getsourcefile
 from time import time
 import _thread
+import requests
 sys.path.append(os.path.abspath(os.path.join('', 'CRAFTpytorch/')))
 sys.path.append(os.path.abspath(os.path.join('', 'deep_text_recognition_benchmark/')))
 # print(sys.path	)
@@ -143,8 +144,20 @@ def image_processing(image, filename, net, refine_net,model,converter):
 
     cv2.imshow("sharpened_image", image_sharp)
     # _thread.start_new_thread(test.run_model,(net,refine_net, image_sharp, filename,model,converter))
-    test.run_model(net,refine_net, image_sharp, filename,model,converter)
+    all_img, all_pred, all_confidence_scores = test.run_model(net,refine_net, image_sharp, filename,model,converter)
 
+    corpus = {} 
+    corpus
+    for i in range(len(all_confidence_scores)):
+    	if(all_confidence_scores[i] > 0.90):
+    		print(all_confidence_scores[i], all_pred[i], all_img[i])
+
+    # brands = DataController.get_all_brands()
+    # print(brands)
+    API_ENDPOINT = "http://localhost:8000/billing/addproduct/"
+    data = {'name':"hello", 'brandName':"someBrand", 'price':2400, 'quantity' :1,} 
+    r = requests.post(url = API_ENDPOINT, data = data) 
+	    # ProductController.get_product()
 
 
 
