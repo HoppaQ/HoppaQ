@@ -13,6 +13,7 @@ from inspect import getsourcefile
 from time import time
 import _thread
 import requests
+# from async_flask.application import
 sys.path.append(os.path.abspath(os.path.join('', 'CRAFTpytorch/')))
 sys.path.append(os.path.abspath(os.path.join('', 'deep_text_recognition_benchmark/')))
 # print(sys.path	)
@@ -82,7 +83,7 @@ def motion_detector(vs, reduction, min_area, net, refine_net,model,converter):
 			w1 = max(w1,w)
 			h1 = max(h1,h)
 		cv2.rectangle(frame, (x1, y1), (x1 + w1, y1 + h1),  (0, 255, 0),2)
-	    # text = "Occupied"
+		# text = "Occupied"
 		# print(frame.shape)
 		crop_img = frame[y1:y1+h1, x1:x1+w1,:]
 		cv2.imshow("cropped", crop_img)
@@ -134,30 +135,34 @@ def clearn_up():
 
 def image_processing(image, filename, net, refine_net,model,converter):
 
-    # kernel = np.array([[0, -1, 0], 
-    #                [-1, 5,-1], 
-    #                [0, -1, 0]])
+	# kernel = np.array([[0, -1, 0], 
+	#                [-1, 5,-1], 
+	#                [0, -1, 0]])
 
-    # Sharpen image
-    # image_sharp = cv2.filter2D(image, -1, kernel)
-    image_sharp = image
+	# Sharpen image
+	# image_sharp = cv2.filter2D(image, -1, kernel)
+	image_sharp = image
 
-    cv2.imshow("sharpened_image", image_sharp)
-    # _thread.start_new_thread(test.run_model,(net,refine_net, image_sharp, filename,model,converter))
-    all_img, all_pred, all_confidence_scores = test.run_model(net,refine_net, image_sharp, filename,model,converter)
+	cv2.imshow("sharpened_image", image_sharp)
+	# _thread.start_new_thread(test.run_model,(net,refine_net, image_sharp, filename,model,converter))
+	all_img, all_pred, all_confidence_scores = test.run_model(net,refine_net, image_sharp, filename,model,converter)
 
-    corpus = {} 
-    corpus
-    for i in range(len(all_confidence_scores)):
-    	if(all_confidence_scores[i] > 0.90):
-    		print(all_confidence_scores[i], all_pred[i], all_img[i])
+	corpus = {} 
+	corpus
+	for i in range(len(all_confidence_scores)):
+		if(all_confidence_scores[i] > 0.90):
+			print(all_confidence_scores[i], all_pred[i], all_img[i])
 
-    # brands = DataController.get_all_brands()
-    # print(brands)
-    API_ENDPOINT = "http://localhost:8000/billing/addproduct/"
-    data = {'name':"hello", 'brandName':"someBrand", 'price':2400, 'quantity' :1,} 
-    r = requests.post(url = API_ENDPOINT, data = data) 
-	    # ProductController.get_product()
+	# brands = DataController.get_all_brands()
+	# print(brands)
+	# API_ENDPOINT = "http://localhost:8000/billing/addproduct/"
+	# data = {'name':"hello", 'brandName':"someBrand", 'price':2400, 'quantity' :1,} 
+	# r = requests.post(url = API_ENDPOINT, data = data) 
+	#     ProductController.get_product()
+	with open("newfile.txt","w") as file:
+		file.write("5")
+		file.close()
+
 
 
 

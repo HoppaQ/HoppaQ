@@ -32,3 +32,7 @@ torchaudio==0.7.2
 torchvision==0.8.2+cpu
 typing-extensions==3.7.4.3
 urllib3==1.26.3
+Flask==1.0.2
+Flask-SocketIO==4.3.1
+python-engineio==3.13.2
+python-socketio==4.6.0
