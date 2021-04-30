@@ -12,7 +12,18 @@ import sys
 from inspect import getsourcefile
 from time import time
 import _thread
+
 import requests
+import serial
+
+time.sleep(10)
+
+ArduinoUnoSerial = serial.Serial('com15',9600)
+print(ArduinoUnoSerial.readline())
+
+
+
+
 # from async_flask.application import
 sys.path.append(os.path.abspath(os.path.join('', 'CRAFTpytorch/')))
 sys.path.append(os.path.abspath(os.path.join('', 'deep_text_recognition_benchmark/')))
