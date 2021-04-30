@@ -1,8 +1,3 @@
-async_flask
-
-Shane Lynn 15/07/2014
-
-Updated to Python 3: 19th-May-2018
 
 ===========
 
