@@ -26,7 +26,7 @@ def randomNumberGenerator():
     #infinite loop of magical random numbers
     print("Making random numbers")
     while not thread_stop_event.isSet():
-        with open("./newfile.csv", "r") as f:
+        with open("../newfile.csv", "r") as f:
             text = f.read()
             f.close()
         print(text)
