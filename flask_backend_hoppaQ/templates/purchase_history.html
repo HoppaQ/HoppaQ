@@ -165,7 +165,7 @@
                             </div>
                             <div class="header-info-right">
                                <ul>
-                                   <li><a href="{{url_for('history')}}">Purchase History</a></li>
+                                   <li><a href="">My Cart</a></li>
 
                                </ul>
                             </div>
@@ -265,19 +265,36 @@
           <table class="table">
             <thead>
               <tr>
-                <th scope="col">Product</th>
-                <th scope="col">Price</th>
-                <th scope="col">Quantity</th>
-                <th scope="col">Total</th>
+                <th scope="col">Invoice ID</th>
+                <th scope="col">Customer Name</th>
+                <th scope="col">Date</th>
+                <th scope="col">Amount</th>
               </tr>
             </thead>
-            <tbody id="tbody">
+            <tbody>
+              {% for key,value in data.iterrows() %}
+              <tr>
+                <td>
+                  <div class="media">
+                    <div class="media-body">
+                      <h3> <a href="{{ url_for ('onProductClick',idX=value['INVOICE']) }}">{{ value['INVOICE'] }}</a> </h3>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h5>${{ value['NAME'] }}</h5>
+                </td>
+                <td>
+                  <h5>${{ value['DATE'] }}</h5>
+                </td>
+                <td>
+                  <h5>${{ value['AMOUNT'] }}</h5>
+                </td>
+
+              </tr>
+              {% endfor %}
             </tbody>
           </table>
-          <div class="checkout_btn_inner float-right">
-            <a class="btn_1" href="#">Continue Shopping</a>
-            <a class="btn_1 checkout_btn_1" href="#">Proceed to checkout</a>
-          </div>
         </div>
       </div>
   </section>

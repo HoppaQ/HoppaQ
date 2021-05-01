@@ -63,6 +63,53 @@ def test_connect():
 def test_disconnect():
     print('Client disconnected')
 
+@app.route('/<idX>', methods=['GET','POST'])
+def onProductClick(idX):
+    print(idX)
+    global currentProductId 
+    currentProductId= idX
+    q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
+    '''Invoice, Name, Date, Amount (bill)'''
+    df=query_db(q)
+    valMaxBid = getMaxBid()
+    if valMaxBid ==0:
+        valMaxBid = "No Bid Yet"
+    global currentProductUserID
+    print(type(df['OWNER_ID']))
+    print(len(df['OWNER_ID']))
+    print(df['OWNER_ID'])
+    # currentProductUserID = df['OWNER_ID']
+    df['maxBid'] = valMaxBid
+    # print(currentProductUserID)
+    # print(df)
+    # for i in df:
+    #    print(df[i])
+    return (render_template('/single-product.html',data=df))
+
+@app.route('/history', methods=['GET','POST'])
+def history():
+    '''Invoice, Name, Date, Amount
+    Above is the object that should be queried and be sent in the df for frontend to render'''
+
+
+    q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
+    # '''Invoice, Name, Date, Amount (bill)'''
+    df=query_db(q)
+    # valMaxBid = getMaxBid()
+    # if valMaxBid ==0:
+    #     valMaxBid = "No Bid Yet"
+    # global currentProductUserID
+    # print(type(df['OWNER_ID']))
+    # print(len(df['OWNER_ID']))
+    # print(df['OWNER_ID'])
+    # currentProductUserID = df['OWNER_ID']
+    # df['maxBid'] = valMaxBid
+    # print(currentProductUserID)
+    # print(df)
+    # for i in df:
+    #    print(df[i])
+    return (render_template('/purchase_history.html',data=df))
+
 
 if __name__ == '__main__':
     socketio.run(app)
