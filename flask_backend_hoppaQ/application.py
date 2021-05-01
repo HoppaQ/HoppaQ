@@ -31,18 +31,22 @@ def randomNumberGenerator():
             f.close()
         print(text)
         listX = text.split(",")
-        name = listX[0]
-        brandName = listX[1]
-        qty = listX[2]
-        price = listX[3]
-        socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price}, namespace='/test')
-        socketio.sleep(5)
+        try:
+            name = listX[0]
+            brandName = listX[1]
+            qty = listX[2]
+            price = listX[3]
+            status = listX[4]
+            socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price, 'status':status}, namespace='/test')
+            socketio.sleep(2)
+        except:
+            socketio.sleep(2)
 
 
 @app.route('/')
 def index():
     #only by sending this page first will the client be connected to the socketio instance
-    return render_template('index.html')
+    return render_template('cart.html')
 
 @socketio.on('connect', namespace='/test')
 def test_connect():
