@@ -27,26 +27,27 @@ def randomNumberGenerator():
     print("Making random numbers")
     while not thread_stop_event.isSet():
         with open("./newfile.csv", "r+") as f:
+
             text = f.read()
             f.truncate(0)
             f.close()
-        if(text != "" ):
-            print(text)
-            listX = text.split(",")
+        listX = text.split(",")
+        try:
             name = listX[0]
             brandName = listX[1]
             qty = listX[2]
             price = listX[3]
-
-            socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price}, namespace='/test')
-
-        socketio.sleep(5)
+            status = listX[4]
+            socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price, 'status':status}, namespace='/test')
+            socketio.sleep(2)
+        except:
+            socketio.sleep(2)
 
 
 @app.route('/')
 def index():
     #only by sending this page first will the client be connected to the socketio instance
-    return render_template('index.html')
+    return render_template('cart.html')
 
 @socketio.on('connect', namespace='/test')
 def test_connect():
@@ -62,6 +63,53 @@ def test_connect():
 @socketio.on('disconnect', namespace='/test')
 def test_disconnect():
     print('Client disconnected')
+
+@app.route('/<idX>', methods=['GET','POST'])
+def onProductClick(idX):
+    print(idX)
+    global currentProductId 
+    currentProductId= idX
+    q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
+    '''Invoice, Name, Date, Amount (bill)'''
+    df=query_db(q)
+    valMaxBid = getMaxBid()
+    if valMaxBid ==0:
+        valMaxBid = "No Bid Yet"
+    global currentProductUserID
+    print(type(df['OWNER_ID']))
+    print(len(df['OWNER_ID']))
+    print(df['OWNER_ID'])
+    # currentProductUserID = df['OWNER_ID']
+    df['maxBid'] = valMaxBid
+    # print(currentProductUserID)
+    # print(df)
+    # for i in df:
+    #    print(df[i])
+    return (render_template('/single-product.html',data=df))
+
+@app.route('/history', methods=['GET','POST'])
+def history():
+    '''Invoice, Name, Date, Amount
+    Above is the object that should be queried and be sent in the df for frontend to render'''
+
+
+    q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
+    # '''Invoice, Name, Date, Amount (bill)'''
+    df=query_db(q)
+    # valMaxBid = getMaxBid()
+    # if valMaxBid ==0:
+    #     valMaxBid = "No Bid Yet"
+    # global currentProductUserID
+    # print(type(df['OWNER_ID']))
+    # print(len(df['OWNER_ID']))
+    # print(df['OWNER_ID'])
+    # currentProductUserID = df['OWNER_ID']
+    # df['maxBid'] = valMaxBid
+    # print(currentProductUserID)
+    # print(df)
+    # for i in df:
+    #    print(df[i])
+    return (render_template('/purchase_history.html',data=df))
 
 
 if __name__ == '__main__':
