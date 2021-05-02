@@ -26,16 +26,20 @@ def randomNumberGenerator():
     #infinite loop of magical random numbers
     print("Making random numbers")
     while not thread_stop_event.isSet():
-        with open("./newfile.csv", "r") as f:
+        with open("./newfile.csv", "r+") as f:
             text = f.read()
+            f.truncate(0)
             f.close()
-        print(text)
-        listX = text.split(",")
-        name = listX[0]
-        brandName = listX[1]
-        qty = listX[2]
-        price = listX[3]
-        socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price}, namespace='/test')
+        if(text != "" ):
+            print(text)
+            listX = text.split(",")
+            name = listX[0]
+            brandName = listX[1]
+            qty = listX[2]
+            price = listX[3]
+
+            socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price}, namespace='/test')
+
         socketio.sleep(5)
 
 
