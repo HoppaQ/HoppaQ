@@ -13,6 +13,8 @@ from inspect import getsourcefile
 from time import time
 import _thread
 import requests
+import csv
+from ProductController import *
 # from async_flask.application import
 sys.path.append(os.path.abspath(os.path.join('', 'CRAFTpytorch/')))
 sys.path.append(os.path.abspath(os.path.join('', 'deep_text_recognition_benchmark/')))
@@ -21,6 +23,8 @@ sys.path.append(os.path.abspath(os.path.join('', 'deep_text_recognition_benchmar
 from  CRAFTpytorch import test
 from deep_text_recognition_benchmark import  demo,dataset,model,utils
 start = time()
+
+
 def initialize():
 	# construct the argument parser and parse the arguments
 	ap = argparse.ArgumentParser()
@@ -147,11 +151,11 @@ def image_processing(image, filename, net, refine_net,model,converter):
 	# _thread.start_new_thread(test.run_model,(net,refine_net, image_sharp, filename,model,converter))
 	all_img, all_pred, all_confidence_scores = test.run_model(net,refine_net, image_sharp, filename,model,converter)
 
-	corpus = {} 
-	corpus
+	corpus = [] 
 	for i in range(len(all_confidence_scores)):
 		if(all_confidence_scores[i] > 0.90):
 			print(all_confidence_scores[i], all_pred[i], all_img[i])
+			corpus.append({"score" : all_confidence_scores[i] , "pred" : all_pred[i], "img" : all_img[i]})
 
 	# brands = DataController.get_all_brands()
 	# print(brands)
@@ -159,9 +163,9 @@ def image_processing(image, filename, net, refine_net,model,converter):
 	# data = {'name':"hello", 'brandName':"someBrand", 'price':2400, 'quantity' :1,} 
 	# r = requests.post(url = API_ENDPOINT, data = data) 
 	#     ProductController.get_product()
-	with open("newfile.txt","w") as file:
-		file.write("5")
-		file.close()
+	with open('records.csv', 'w', newline='') as file:
+	    writer = csv.writer(file)
+	    writer.writerow(["SN", "Name", "Contribution"])
 
 
 
