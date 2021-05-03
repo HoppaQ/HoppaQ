@@ -11,6 +11,47 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 app.config['DEBUG'] = True
 
+import mysql.connector
+# from DatabaseConnection import *
+
+mydb = get_connection()
+
+
+
+# def get_connection():
+mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="1234",
+    database="hoppaq_database"
+)
+	# return mydb
+
+
+def get_all_products():
+	mycursor = mydb.cursor()
+
+	mycursor.execute("select * from product, brand where product.idbrand = brand.idbrand")
+	brands = mycursor.fetchall()
+
+	mycursor.execute(" select product.nameproduct, product_description.description, product_description.manufacture_date, product_description.expiration_date  from product, product_description where product.idproduct = product_description.idproduct")
+	description = mycursor.fetchall()
+
+	mycursor.execute("select product.nameproduct, product_price.priceproduct from  product, product_price where product.idproduct = product_price.idproduct")
+	price = mycursor.fetchall()
+
+	mycursor.execute("select product.nameproduct, product_weights.weightproduct from  product, product_weights where product.idproduct = product_weights.idproduct")
+	weight = mycursor.fetchall()
+
+	print(brands)
+	print(description)
+	print(price)
+	print(weight)
+
+
+get_all_products()
+
+
 #turn the flask app into a socketio app
 socketio = SocketIO(app, async_mode=None, logger=True, engineio_logger=True)
 
@@ -66,36 +107,23 @@ def test_disconnect():
 
 @app.route('/<idX>', methods=['GET','POST'])
 def onProductClick(idX):
-    print(idX)
-    global currentProductId 
-    currentProductId= idX
-    q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
-    '''Invoice, Name, Date, Amount (bill)'''
-    df=query_db(q)
-    valMaxBid = getMaxBid()
-    if valMaxBid ==0:
-        valMaxBid = "No Bid Yet"
-    global currentProductUserID
-    print(type(df['OWNER_ID']))
-    print(len(df['OWNER_ID']))
-    print(df['OWNER_ID'])
-    # currentProductUserID = df['OWNER_ID']
-    df['maxBid'] = valMaxBid
-    # print(currentProductUserID)
-    # print(df)
-    # for i in df:
-    #    print(df[i])
-    return (render_template('/single-product.html',data=df))
+    # print(idX)
+    # global currentProductId 
+    # currentProductId= idX
+    mycursor.execute(f'''select * FROM item WHERE (idinvoice = "{idX}")''')
+	invoice = mycursor.fetchall()
+    df = []
+    for i in invoice:
+        dictB = {}
+        dictB['Product'] = i[0]
+        dictB['Date'] = i[2]
+        dictB['Amount'] = i[3]
+        df.append(dictB)
 
-@app.route('/history', methods=['GET','POST'])
-def history():
-    '''Invoice, Name, Date, Amount
-    Above is the object that should be queried and be sent in the df for frontend to render'''
+    # return (render_template('/purchase_history.html',data=df))
 
-
-    q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
     # '''Invoice, Name, Date, Amount (bill)'''
-    df=query_db(q)
+    # df=query_db(q)
     # valMaxBid = getMaxBid()
     # if valMaxBid ==0:
     #     valMaxBid = "No Bid Yet"
@@ -109,6 +137,25 @@ def history():
     # print(df)
     # for i in df:
     #    print(df[i])
+    return (render_template('/single-product.html',data=df))
+
+@app.route('/history', methods=['GET','POST'])
+def history():
+    '''Invoice, Name, Date, Amount
+    Above is the object that should be queried and be sent in the df for frontend to render'''
+
+
+    # q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
+    mycursor.execute(f'''select * FROM invoice WHERE (iduser = "{idX}")''')
+	invoice = mycursor.fetchall()
+    df =[]
+    for i in invoice:
+        dictB = {}
+        dictB['Invoice'] = i[0]
+        dictB['User'] = i[1]
+        dictB['Date'] = i[2]
+        dictB['Amount'] = i[3]
+        df.append(dictB)
     return (render_template('/purchase_history.html',data=df))
 
 

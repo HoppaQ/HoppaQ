@@ -7,7 +7,7 @@ mydb = get_connection()
 def get_all_products():
 	mycursor = mydb.cursor()
 
-	mycursor.execute("select product.nameproduct, brand.namebrand, product.typeproduct from product, brand where product.idbrand = brand.idbrand")
+	mycursor.execute("select * from product")
 	brands = mycursor.fetchall()
 
 	mycursor.execute(" select product.nameproduct, product_description.description, product_description.manufacture_date, product_description.expiration_date  from product, product_description where product.idproduct = product_description.idproduct")
