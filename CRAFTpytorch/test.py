@@ -169,8 +169,8 @@ def run_model(net, refine_net, image, filename,model,converter):
     # print("bounding-boxes for image : ", filename, polys, bboxes)
     # cv2.imshow(image)
     # print(image)
-    print(image.shape)
-    print(len(polys))
+    # print(image.shape)
+    # print(len(polys))
     for i in range(len(polys)):
         cor = polys[i]
         x1,y1 = cor[0,0], cor[0,1]
@@ -188,15 +188,15 @@ def run_model(net, refine_net, image, filename,model,converter):
 
         if(bot_right_y - top_left_y > 2 and bot_right_x - top_left_x > 2 ):
             curr_image = image[top_left_x:bot_right_x+1,top_left_y:bot_right_y+1, ::-1]
-            print(bot_right_y - top_left_y,bot_right_x - top_left_x,curr_image)
+            # print(bot_right_y - top_left_y,bot_right_x - top_left_x,curr_image)
             # cv2.imshow('image',curr_image)
             # cv2.imwrite(result_folder + "/res_" + filename + "_" + str(i) + '.jpg', curr_image)
     # save score text
     # filename, file_ext = os.path.splitext(os.path.basename(image_path))
     mask_file = result_folder + "/res_" + filename + '_mask.jpg'
     cv2.imwrite(mask_file, score_text)
-    print("Running model on image ")
-    cv2.imshow("Image", image)
+    # print("Running model on image ")
+    # cv2.imshow("Image", image)
     file_utils.saveResult(filename, image[:,:,::-1], polys, dirname=result_folder)
     all_img,all_pred,all_confidence_scores = demo.run_recog_model(model,filename,converter)
 

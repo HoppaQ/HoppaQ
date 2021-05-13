@@ -61,7 +61,7 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
                 poly = poly.reshape(-1, 2)
                 curr_image = copy.deepcopy(deep_image)
                 cv2.polylines(curr_image, [poly.reshape((-1, 1, 2))], True, color=(0, 0, 255), thickness=2)
-                print("poly " + str(i) + " = " ,  poly)
+                # print("poly " + str(i) + " = " ,  poly)
                 x1,y1 = poly[0,0], poly[0,1]
                 x2,y2 = poly[1,0], poly[1,1]
                 x3,y3 = poly[2,0], poly[2,1]

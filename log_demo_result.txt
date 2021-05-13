@@ -367,3 +367,787 @@ D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate              
 D:\GitProjects\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9883
 D:\GitProjects\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9649
 D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num123.jpg	eling                    	0.0005
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_0.jpg	mou                      	0.0258
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_mask.jpg	consupting               	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num164.jpg	political                	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0161
+D:\GitProjects\HoppaQ\result\res_image_crop_num417_mask.jpg	a                        	0.2165
+D:\GitProjects\HoppaQ\result\res_image_crop_num494.jpg	the                      	0.0766
+D:\GitProjects\HoppaQ\result\res_image_crop_num494_mask.jpg	the                      	0.1225
+D:\GitProjects\HoppaQ\result\res_image_crop_num590.jpg	interning                	0.0001
+D:\GitProjects\HoppaQ\result\res_image_crop_num590_mask.jpg	a                        	0.2113
+D:\GitProjects\HoppaQ\result\res_image_crop_num896.jpg	the                      	0.0469
+D:\GitProjects\HoppaQ\result\res_image_crop_num896_mask.jpg	a                        	0.2070
+D:\GitProjects\HoppaQ\result\res_image_crop_num970_mask.jpg	a                        	0.2113
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	for                      	0.0178
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2110
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	to                       	0.0936
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_0.jpg	milano                   	0.9982
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	chocolate                	0.9995
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_2.jpg	chip                     	0.9883
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9648
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	a                        	0.2105
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num123.jpg	eling                    	0.0005
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_0.jpg	mou                      	0.0258
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_mask.jpg	consupting               	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num164.jpg	political                	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num164_mask.jpg	and                      	0.0161
+D:\GitProjects\HoppaQ\result\res_image_crop_num417_mask.jpg	a                        	0.2165
+D:\GitProjects\HoppaQ\result\res_image_crop_num494.jpg	the                      	0.0766
+D:\GitProjects\HoppaQ\result\res_image_crop_num494_mask.jpg	the                      	0.1225
+D:\GitProjects\HoppaQ\result\res_image_crop_num590.jpg	interning                	0.0001
+D:\GitProjects\HoppaQ\result\res_image_crop_num590_mask.jpg	a                        	0.2113
+D:\GitProjects\HoppaQ\result\res_image_crop_num896.jpg	the                      	0.0469
+D:\GitProjects\HoppaQ\result\res_image_crop_num896_mask.jpg	a                        	0.2070
+D:\GitProjects\HoppaQ\result\res_image_crop_num970_mask.jpg	a                        	0.2113
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	for                      	0.0178
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2110
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	the                      	0.1110
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_0.jpg	tasty                    	0.9991
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	treat                    	0.7564
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_2.jpg	toreschup                	0.0066
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_3.jpg	cookies                  	0.9648
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	ele                      	0.0176
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.1940
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2118
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.1940
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2118
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	real                     	0.0094
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_0.jpg	tomato                   	0.9976
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	ketchup                  	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	i                        	0.2205
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	any                      	0.0057
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2102
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	any                      	0.0057
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2102
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	for                      	0.0385
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_0.jpg	typy                     	0.0430
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_2.jpg	ketchup                  	0.9994
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	ene                      	0.0038
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num123.jpg	for                      	0.0445
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_0.jpg	tasty                    	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_1.jpg	treat                    	0.9833
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_2.jpg	toratchup                	0.2264
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_mask.jpg	ser                      	0.0028
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	any                      	0.0057
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2102
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	for                      	0.0385
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_0.jpg	typy                     	0.0430
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_2.jpg	ketchup                  	0.9994
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	ene                      	0.0038
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num123.jpg	for                      	0.0445
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_0.jpg	tasty                    	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_1.jpg	treat                    	0.9833
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_2.jpg	toratchup                	0.2263
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_mask.jpg	ser                      	0.0028
+D:\GitProjects\HoppaQ\result\res_image_crop_num164.jpg	tastys                   	0.5547
+D:\GitProjects\HoppaQ\result\res_image_crop_num164_0.jpg	tasty                    	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num164_1.jpg	thank                    	0.0631
+D:\GitProjects\HoppaQ\result\res_image_crop_num164_mask.jpg	consplooged              	0.0011
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	any                      	0.0057
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2102
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	for                      	0.0385
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_0.jpg	typy                     	0.0430
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_2.jpg	ketchup                  	0.9994
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	ene                      	0.0038
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num123.jpg	for                      	0.0445
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_0.jpg	tasty                    	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_1.jpg	treat                    	0.9833
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_2.jpg	toratchup                	0.2263
+D:\GitProjects\HoppaQ\result\res_image_crop_num123_mask.jpg	ser                      	0.0028
+D:\GitProjects\HoppaQ\result\res_image_crop_num164.jpg	tastys                   	0.5547
+D:\GitProjects\HoppaQ\result\res_image_crop_num164_0.jpg	tasty                    	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num164_1.jpg	thank                    	0.0631
+D:\GitProjects\HoppaQ\result\res_image_crop_num164_mask.jpg	consplooged              	0.0011
+D:\GitProjects\HoppaQ\result\res_image_crop_num294.jpg	tas                      	0.2468
+D:\GitProjects\HoppaQ\result\res_image_crop_num294_0.jpg	tas                      	0.9590
+D:\GitProjects\HoppaQ\result\res_image_crop_num294_mask.jpg	oppach                   	0.0006
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	any                      	0.0057
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2102
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	for                      	0.0385
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_0.jpg	typy                     	0.0430
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_2.jpg	ketchup                  	0.9994
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	ene                      	0.0038
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0160
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num394.jpg	angrounds                	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num394_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num435.jpg	the                      	0.1104
+D:\GitProjects\HoppaQ\result\res_image_crop_num435_0.jpg	tasty                    	1.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num435_1.jpg	treat                    	0.9962
+D:\GitProjects\HoppaQ\result\res_image_crop_num435_2.jpg	tomato                   	0.9995
+D:\GitProjects\HoppaQ\result\res_image_crop_num435_3.jpg	ketchup                  	0.9666
+D:\GitProjects\HoppaQ\result\res_image_crop_num435_mask.jpg	ele                      	0.0292
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num476.jpg	the                      	0.0595
+D:\GitProjects\HoppaQ\result\res_image_crop_num476_0.jpg	tasty                    	0.1303
+D:\GitProjects\HoppaQ\result\res_image_crop_num476_1.jpg	tomato                   	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_num476_2.jpg	ketchup                  	0.9980
+D:\GitProjects\HoppaQ\result\res_image_crop_num476_mask.jpg	ene                      	0.0063
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num517.jpg	two                      	0.0313
+D:\GitProjects\HoppaQ\result\res_image_crop_num517_0.jpg	tasty                    	1.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num517_mask.jpg	consprossors             	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num602.jpg	for                      	0.0577
+D:\GitProjects\HoppaQ\result\res_image_crop_num602_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num643.jpg	the                      	0.0390
+D:\GitProjects\HoppaQ\result\res_image_crop_num643_0.jpg	tastv                    	0.8225
+D:\GitProjects\HoppaQ\result\res_image_crop_num643_mask.jpg	the                      	0.0375
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num684.jpg	the                      	0.0357
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_0.jpg	10                       	0.4679
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_1.jpg	know                     	0.8394
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_2.jpg	readvinicing             	0.0310
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_3.jpg	tomato                   	0.9900
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_4.jpg	chatpata                 	0.9985
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_5.jpg	cup                      	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_6.jpg	soup                     	0.9996
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_7.jpg	tasty                    	1.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num684_mask.jpg	for                      	0.0291
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num725.jpg	beling                   	0.0002
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_0.jpg	10                       	0.9357
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_1.jpg	know                     	0.9574
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_2.jpg	readylo                  	0.3439
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_3.jpg	timinute                 	0.0379
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_4.jpg	tomato                   	0.9969
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_5.jpg	chatpata                 	0.9989
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_6.jpg	cup                      	0.9935
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_7.jpg	soup                     	0.9994
+D:\GitProjects\HoppaQ\result\res_image_crop_num725_mask.jpg	state                    	0.0007
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num850.jpg	i                        	0.6617
+D:\GitProjects\HoppaQ\result\res_image_crop_num850_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num891.jpg	and                      	0.0221
+D:\GitProjects\HoppaQ\result\res_image_crop_num891_0.jpg	tasty                    	1.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num891_mask.jpg	the                      	0.0463
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0178
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2110
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	the                      	0.0285
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_0.jpg	tastyt                   	0.3577
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_1.jpg	tomato                   	0.9993
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_2.jpg	ketchup                  	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	ele                      	0.0350
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	the                      	0.0170
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num252.jpg	in                       	0.0400
+D:\GitProjects\HoppaQ\result\res_image_crop_num252_mask.jpg	a                        	0.2155
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num293.jpg	forman                   	0.0005
+D:\GitProjects\HoppaQ\result\res_image_crop_num293_mask.jpg	the                      	0.1149
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num334.jpg	the                      	0.0292
+D:\GitProjects\HoppaQ\result\res_image_crop_num334_0.jpg	cup                      	0.9640
+D:\GitProjects\HoppaQ\result\res_image_crop_num334_1.jpg	soup                     	0.8651
+D:\GitProjects\HoppaQ\result\res_image_crop_num334_mask.jpg	and                      	0.0218
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num375.jpg	sure                     	0.0009
+D:\GitProjects\HoppaQ\result\res_image_crop_num375_0.jpg	tomato                   	0.9803
+D:\GitProjects\HoppaQ\result\res_image_crop_num375_1.jpg	chatpata                 	0.4213
+D:\GitProjects\HoppaQ\result\res_image_crop_num375_2.jpg	cup                      	0.9983
+D:\GitProjects\HoppaQ\result\res_image_crop_num375_3.jpg	soup                     	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_num375_mask.jpg	the                      	0.0283
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num416.jpg	surting                  	0.0001
+D:\GitProjects\HoppaQ\result\res_image_crop_num416_0.jpg	lo                       	0.8100
+D:\GitProjects\HoppaQ\result\res_image_crop_num416_1.jpg	restynimation            	0.0001
+D:\GitProjects\HoppaQ\result\res_image_crop_num416_2.jpg	know                     	0.9582
+D:\GitProjects\HoppaQ\result\res_image_crop_num416_3.jpg	tomato                   	0.9942
+D:\GitProjects\HoppaQ\result\res_image_crop_num416_4.jpg	chatpata                 	0.9962
+D:\GitProjects\HoppaQ\result\res_image_crop_num416_5.jpg	cup                      	1.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num416_6.jpg	soup                     	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_num416_mask.jpg	the                      	0.0224
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num476.jpg	many                     	0.0121
+D:\GitProjects\HoppaQ\result\res_image_crop_num476_mask.jpg	the                      	0.1480
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num517.jpg	surport                  	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num517_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num558_mask.jpg	supporting               	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41.jpg	propent                  	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_numb41_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82.jpg	the                      	0.0156
+D:\GitProjects\HoppaQ\result\res_image_crop_numb82_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num264.jpg	i                        	0.4858
+D:\GitProjects\HoppaQ\result\res_image_crop_num264_mask.jpg	the                      	0.1175
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num305.jpg	state                    	0.0008
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_0.jpg	know                     	0.8093
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_1.jpg	10                       	0.7929
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_2.jpg	recommining              	0.0013
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_3.jpg	tomato                   	0.9400
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_4.jpg	chatpata                 	0.9705
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_5.jpg	cup                      	0.9995
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_6.jpg	soup                     	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_mask.jpg	the                      	0.0302
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num346.jpg	for                      	0.0250
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_0.jpg	know                     	0.9925
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_1.jpg	70                       	0.5564
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_2.jpg	readvinatiminate         	0.0020
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_3.jpg	tomato                   	0.9995
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_4.jpg	chatpata                 	0.9979
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_5.jpg	cup                      	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_6.jpg	soup                     	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_mask.jpg	constrates               	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num434.jpg	and                      	0.0321
+D:\GitProjects\HoppaQ\result\res_image_crop_num434_mask.jpg	a                        	0.2128
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num475.jpg	the                      	0.0445
+D:\GitProjects\HoppaQ\result\res_image_crop_num475_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num516.jpg	the                      	0.1805
+D:\GitProjects\HoppaQ\result\res_image_crop_num516_mask.jpg	a                        	0.2142
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num557.jpg	the                      	0.0402
+D:\GitProjects\HoppaQ\result\res_image_crop_num557_0.jpg	try                      	0.0771
+D:\GitProjects\HoppaQ\result\res_image_crop_num557_1.jpg	tomato                   	0.9990
+D:\GitProjects\HoppaQ\result\res_image_crop_num557_2.jpg	ketchup                  	0.9993
+D:\GitProjects\HoppaQ\result\res_image_crop_num557_mask.jpg	me                       	0.0229
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num598.jpg	state                    	0.0008
+D:\GitProjects\HoppaQ\result\res_image_crop_num598_0.jpg	try                      	0.1952
+D:\GitProjects\HoppaQ\result\res_image_crop_num598_1.jpg	tomato                   	0.9996
+D:\GitProjects\HoppaQ\result\res_image_crop_num598_2.jpg	ketchup                  	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num598_mask.jpg	beling                   	0.0002
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num856.jpg	the                      	0.1368
+D:\GitProjects\HoppaQ\result\res_image_crop_num856_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num897.jpg	the                      	0.1071
+D:\GitProjects\HoppaQ\result\res_image_crop_num897_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num938.jpg	apr                      	0.0444
+D:\GitProjects\HoppaQ\result\res_image_crop_num938_mask.jpg	a                        	0.2314
+D:\GitProjects\HoppaQ\result\res_image_crop_numb61.jpg	the                      	0.0204
+D:\GitProjects\HoppaQ\result\res_image_crop_numb61_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb61.jpg	the                      	0.0719
+D:\GitProjects\HoppaQ\result\res_image_crop_numb61_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num122.jpg	state                    	0.0018
+D:\GitProjects\HoppaQ\result\res_image_crop_num122_0.jpg	know                     	0.5469
+D:\GitProjects\HoppaQ\result\res_image_crop_num122_1.jpg	din                      	0.0858
+D:\GitProjects\HoppaQ\result\res_image_crop_num122_2.jpg	tomato                   	0.7717
+D:\GitProjects\HoppaQ\result\res_image_crop_num122_3.jpg	chatpata                 	0.9853
+D:\GitProjects\HoppaQ\result\res_image_crop_num122_4.jpg	cup                      	0.9912
+D:\GitProjects\HoppaQ\result\res_image_crop_num122_5.jpg	soup                     	0.9994
+D:\GitProjects\HoppaQ\result\res_image_crop_num122_mask.jpg	f                        	0.6329
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num183.jpg	state                    	0.0016
+D:\GitProjects\HoppaQ\result\res_image_crop_num183_0.jpg	112                      	0.5614
+D:\GitProjects\HoppaQ\result\res_image_crop_num183_1.jpg	readyloums               	0.0042
+D:\GitProjects\HoppaQ\result\res_image_crop_num183_2.jpg	know                     	0.5766
+D:\GitProjects\HoppaQ\result\res_image_crop_num183_3.jpg	tomalo                   	0.5466
+D:\GitProjects\HoppaQ\result\res_image_crop_num183_4.jpg	chatpata                 	0.9995
+D:\GitProjects\HoppaQ\result\res_image_crop_num183_5.jpg	cup                      	0.9950
+D:\GitProjects\HoppaQ\result\res_image_crop_num183_6.jpg	soup                     	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num183_mask.jpg	for                      	0.0269
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num244.jpg	the                      	0.0404
+D:\GitProjects\HoppaQ\result\res_image_crop_num244_0.jpg	try                      	0.0806
+D:\GitProjects\HoppaQ\result\res_image_crop_num244_1.jpg	tomato                   	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_num244_2.jpg	ketchup                  	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num244_mask.jpg	enection                 	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num305.jpg	the                      	0.0389
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_0.jpg	try                      	0.2727
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_1.jpg	tomato                   	0.9988
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_2.jpg	ketchup                  	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num305_mask.jpg	election                 	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num560.jpg	for                      	0.0818
+D:\GitProjects\HoppaQ\result\res_image_crop_num560_mask.jpg	a                        	0.2046
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num621.jpg	and                      	0.0546
+D:\GitProjects\HoppaQ\result\res_image_crop_num621_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num682.jpg	been                     	0.0102
+D:\GitProjects\HoppaQ\result\res_image_crop_num682_0.jpg	fevil                    	0.9944
+D:\GitProjects\HoppaQ\result\res_image_crop_num682_1.jpg	kwill                    	0.7735
+D:\GitProjects\HoppaQ\result\res_image_crop_num682_mask.jpg	constructions            	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num328.jpg	contracent               	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num328_mask.jpg	a                        	0.2103
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num578.jpg	states                   	0.0001
+D:\GitProjects\HoppaQ\result\res_image_crop_num578_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num821.jpg	state                    	0.0004
+D:\GitProjects\HoppaQ\result\res_image_crop_num821_mask.jpg	a                        	0.2190
+D:\GitProjects\HoppaQ\result\res_image_crop_numb99.jpg	the                      	0.0120
+D:\GitProjects\HoppaQ\result\res_image_crop_numb99_0.jpg	loma                     	0.6155
+D:\GitProjects\HoppaQ\result\res_image_crop_numb99_1.jpg	cup                      	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_numb99_2.jpg	soup                     	0.7227
+D:\GitProjects\HoppaQ\result\res_image_crop_numb99_mask.jpg	the                      	0.0329
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num193.jpg	and                      	0.0071
+D:\GitProjects\HoppaQ\result\res_image_crop_num193_0.jpg	topy                     	0.0276
+D:\GitProjects\HoppaQ\result\res_image_crop_num193_1.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_num193_2.jpg	ketchup                  	0.9995
+D:\GitProjects\HoppaQ\result\res_image_crop_num193_mask.jpg	election                 	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num306.jpg	the                      	0.2043
+D:\GitProjects\HoppaQ\result\res_image_crop_num306_0.jpg	bay                      	0.0192
+D:\GitProjects\HoppaQ\result\res_image_crop_num306_1.jpg	rm                       	0.4153
+D:\GitProjects\HoppaQ\result\res_image_crop_num306_mask.jpg	spo                      	0.0022
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb81.jpg	the                      	0.0304
+D:\GitProjects\HoppaQ\result\res_image_crop_numb81_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num231.jpg	the                      	0.0170
+D:\GitProjects\HoppaQ\result\res_image_crop_num231_0.jpg	tosty                    	0.0137
+D:\GitProjects\HoppaQ\result\res_image_crop_num231_1.jpg	toketchup                	0.5618
+D:\GitProjects\HoppaQ\result\res_image_crop_num231_mask.jpg	selled                   	0.0001
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num346.jpg	the                      	0.0193
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_0.jpg	try                      	0.1926
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_1.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_2.jpg	ketchup                  	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_num346_mask.jpg	surgenes                 	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_nu1029.jpg	the                      	0.0165
+D:\GitProjects\HoppaQ\result\res_image_crop_nu1029_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60.jpg	for                      	0.0293
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_mask.jpg	a                        	0.2053
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num243.jpg	the                      	0.0235
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_0.jpg	knn                      	0.1578
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_1.jpg	cup                      	0.9970
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_2.jpg	soup                     	0.9959
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_mask.jpg	the                      	0.0414
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60.jpg	for                      	0.0293
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_mask.jpg	a                        	0.2053
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num116.jpg	the                      	0.0194
+D:\GitProjects\HoppaQ\result\res_image_crop_num116_mask.jpg	a                        	0.2113
+D:\GitProjects\HoppaQ\result\res_image_crop_num243.jpg	the                      	0.0235
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_0.jpg	knn                      	0.1578
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_1.jpg	cup                      	0.9970
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_2.jpg	soup                     	0.9959
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_mask.jpg	the                      	0.0414
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60.jpg	for                      	0.0293
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_mask.jpg	a                        	0.2053
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num116.jpg	the                      	0.0194
+D:\GitProjects\HoppaQ\result\res_image_crop_num116_mask.jpg	a                        	0.2113
+D:\GitProjects\HoppaQ\result\res_image_crop_num243.jpg	the                      	0.0235
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_0.jpg	knn                      	0.1578
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_1.jpg	cup                      	0.9970
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_2.jpg	soup                     	0.9959
+D:\GitProjects\HoppaQ\result\res_image_crop_num243_mask.jpg	the                      	0.0414
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60.jpg	for                      	0.0293
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_mask.jpg	a                        	0.2053
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79.jpg	trans                    	0.0023
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_0.jpg	10                       	0.9144
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_1.jpg	ready                    	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_2.jpg	ir                       	0.3225
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_3.jpg	1                        	0.6488
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_4.jpg	minute                   	0.6422
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_5.jpg	know                     	0.5029
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_6.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_7.jpg	chatpata                 	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_8.jpg	cup                      	0.8313
+D:\GitProjects\HoppaQ\result\res_image_crop_numb79_mask.jpg	for                      	0.0396
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66.jpg	tist                     	0.0181
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_0.jpg	10                       	0.9941
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_1.jpg	timmute                  	0.0393
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_2.jpg	readvin                  	0.7935
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_3.jpg	knorr                    	0.8608
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_4.jpg	tomato                   	0.9977
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_5.jpg	chatpata                 	0.9995
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_6.jpg	cup                      	0.9987
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_7.jpg	soup                     	0.9969
+D:\GitProjects\HoppaQ\result\res_image_crop_numb66_mask.jpg	for                      	0.0638
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64.jpg	test                     	0.0276
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_0.jpg	10                       	0.8085
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_1.jpg	ready                    	0.9949
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_2.jpg	minute                   	0.9158
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_3.jpg	i                        	0.6129
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_4.jpg	un                       	0.1654
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_5.jpg	know                     	0.5250
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_6.jpg	tomato                   	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_7.jpg	chatpata                 	0.9996
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_8.jpg	cup                      	0.9983
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_9.jpg	soup                     	0.9995
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_mask.jpg	the                      	0.0484
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb68.jpg	for                      	0.0405
+D:\GitProjects\HoppaQ\result\res_image_crop_numb68_0.jpg	milow                    	0.0592
+D:\GitProjects\HoppaQ\result\res_image_crop_numb68_1.jpg	milling                  	0.0041
+D:\GitProjects\HoppaQ\result\res_image_crop_numb68_2.jpg	tomato                   	0.9886
+D:\GitProjects\HoppaQ\result\res_image_crop_numb68_3.jpg	chalpata                 	0.3171
+D:\GitProjects\HoppaQ\result\res_image_crop_numb68_4.jpg	cup                      	0.9953
+D:\GitProjects\HoppaQ\result\res_image_crop_numb68_5.jpg	soup                     	0.9853
+D:\GitProjects\HoppaQ\result\res_image_crop_numb68_mask.jpg	the                      	0.0485
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60.jpg	the                      	0.0217
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_0.jpg	10                       	0.9713
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_1.jpg	ready                    	0.9991
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_2.jpg	in                       	0.9685
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_3.jpg	know                     	0.6290
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_4.jpg	munure                   	0.1926
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_5.jpg	tomato                   	0.9988
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_6.jpg	chatpata                 	0.9990
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_7.jpg	cup                      	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_8.jpg	soup                     	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_numb60_mask.jpg	the                      	0.0413
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63.jpg	state                    	0.0020
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63_0.jpg	ito                      	0.1388
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63_1.jpg	readyle                  	0.2104
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63_2.jpg	know                     	0.9931
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63_3.jpg	milling                  	0.0006
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63_4.jpg	tomato                   	0.9978
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63_5.jpg	chatpata                 	0.9654
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63_6.jpg	cup                      	0.3239
+D:\GitProjects\HoppaQ\result\res_image_crop_numb63_mask.jpg	t                        	0.3415
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64.jpg	states                   	0.0001
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_0.jpg	10                       	0.6873
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_1.jpg	readylammen              	0.0069
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_2.jpg	know                     	0.7373
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_3.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_4.jpg	chatpata                 	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_5.jpg	cup                      	0.9996
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_6.jpg	soup                     	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_numb64_mask.jpg	the                      	0.0330
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb70.jpg	for                      	0.0216
+D:\GitProjects\HoppaQ\result\res_image_crop_numb70_0.jpg	ama                      	0.0718
+D:\GitProjects\HoppaQ\result\res_image_crop_numb70_1.jpg	lani                     	0.1158
+D:\GitProjects\HoppaQ\result\res_image_crop_numb70_2.jpg	i                        	0.4367
+D:\GitProjects\HoppaQ\result\res_image_crop_numb70_3.jpg	have                     	0.1938
+D:\GitProjects\HoppaQ\result\res_image_crop_numb70_4.jpg	changere                 	0.0007
+D:\GitProjects\HoppaQ\result\res_image_crop_numb70_mask.jpg	proporting               	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num205.jpg	for                      	0.1714
+D:\GitProjects\HoppaQ\result\res_image_crop_num205_mask.jpg	a                        	0.1944
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num329.jpg	the                      	0.1177
+D:\GitProjects\HoppaQ\result\res_image_crop_num329_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num370.jpg	the                      	0.0533
+D:\GitProjects\HoppaQ\result\res_image_crop_num370_0.jpg	the                      	0.0172
+D:\GitProjects\HoppaQ\result\res_image_crop_num370_1.jpg	air                      	0.0507
+D:\GitProjects\HoppaQ\result\res_image_crop_num370_2.jpg	ready                    	0.5773
+D:\GitProjects\HoppaQ\result\res_image_crop_num370_3.jpg	know                     	0.8963
+D:\GitProjects\HoppaQ\result\res_image_crop_num370_4.jpg	temata                   	0.5504
+D:\GitProjects\HoppaQ\result\res_image_crop_num370_5.jpg	chatpala                 	0.4690
+D:\GitProjects\HoppaQ\result\res_image_crop_num370_mask.jpg	speas                    	0.0002
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num657.jpg	the                      	0.0406
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_0.jpg	diminute                 	0.0646
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_1.jpg	iti                      	0.0909
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_2.jpg	ready                    	0.9906
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_3.jpg	tomato                   	0.9848
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_4.jpg	id                       	0.1695
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_5.jpg	chatpata                 	0.9782
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_6.jpg	12                       	0.1051
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_7.jpg	as                       	0.0855
+D:\GitProjects\HoppaQ\result\res_image_crop_num657_mask.jpg	ff                       	0.1088
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb84.jpg	the                      	0.1332
+D:\GitProjects\HoppaQ\result\res_image_crop_numb84_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num166.jpg	state                    	0.0005
+D:\GitProjects\HoppaQ\result\res_image_crop_num166_0.jpg	know                     	0.3210
+D:\GitProjects\HoppaQ\result\res_image_crop_num166_mask.jpg	the                      	0.0674
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num207.jpg	the                      	0.0368
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_0.jpg	10                       	0.9729
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_1.jpg	minute                   	0.9918
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_2.jpg	i                        	0.6586
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_3.jpg	lo                       	0.2300
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_4.jpg	ready                    	1.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_5.jpg	know                     	0.9888
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_6.jpg	tomato                   	0.9990
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_7.jpg	chatpata                 	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_8.jpg	cup                      	0.7872
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_9.jpg	not                      	0.0687
+D:\GitProjects\HoppaQ\result\res_image_crop_num207_mask.jpg	part                     	0.0024
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num523.jpg	the                      	0.0281
+D:\GitProjects\HoppaQ\result\res_image_crop_num523_0.jpg	insty                    	0.1556
+D:\GitProjects\HoppaQ\result\res_image_crop_num523_1.jpg	tomato                   	0.9994
+D:\GitProjects\HoppaQ\result\res_image_crop_num523_2.jpg	ketchup                  	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_num523_mask.jpg	be                       	0.0399
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num742.jpg	serving                  	0.0001
+D:\GitProjects\HoppaQ\result\res_image_crop_num742_0.jpg	tastyt                   	0.1252
+D:\GitProjects\HoppaQ\result\res_image_crop_num742_1.jpg	tomato                   	0.9978
+D:\GitProjects\HoppaQ\result\res_image_crop_num742_2.jpg	ketchup                  	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num742_mask.jpg	surgeness                	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb71.jpg	sure                     	0.0007
+D:\GitProjects\HoppaQ\result\res_image_crop_numb71_0.jpg	tasty                    	0.2062
+D:\GitProjects\HoppaQ\result\res_image_crop_numb71_1.jpg	tomato                   	0.9996
+D:\GitProjects\HoppaQ\result\res_image_crop_numb71_2.jpg	ketchup                  	0.9986
+D:\GitProjects\HoppaQ\result\res_image_crop_numb71_mask.jpg	beliest                  	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num130.jpg	collect                  	0.0002
+D:\GitProjects\HoppaQ\result\res_image_crop_num130_mask.jpg	a                        	0.2113
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num185.jpg	the                      	0.1359
+D:\GitProjects\HoppaQ\result\res_image_crop_num185_mask.jpg	the                      	0.1157
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num271.jpg	the                      	0.0782
+D:\GitProjects\HoppaQ\result\res_image_crop_num271_mask.jpg	a                        	0.2114
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num366.jpg	for                      	0.2175
+D:\GitProjects\HoppaQ\result\res_image_crop_num366_mask.jpg	the                      	0.1179
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num486.jpg	have                     	0.0159
+D:\GitProjects\HoppaQ\result\res_image_crop_num486_mask.jpg	a                        	0.2093
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num527.jpg	the                      	0.0295
+D:\GitProjects\HoppaQ\result\res_image_crop_num527_0.jpg	know                     	0.0357
+D:\GitProjects\HoppaQ\result\res_image_crop_num527_1.jpg	chappic                  	0.0081
+D:\GitProjects\HoppaQ\result\res_image_crop_num527_2.jpg	cup                      	0.9984
+D:\GitProjects\HoppaQ\result\res_image_crop_num527_3.jpg	seup                     	0.3981
+D:\GitProjects\HoppaQ\result\res_image_crop_num527_mask.jpg	the                      	0.0353
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_numb76.jpg	flath                    	0.0008
+D:\GitProjects\HoppaQ\result\res_image_crop_numb76_mask.jpg	the                      	0.1179
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num125.jpg	is                       	0.0340
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_0.jpg	zo                       	0.5316
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_1.jpg	readyin                  	0.4533
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_2.jpg	know                     	0.7970
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_3.jpg	i                        	0.7437
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_4.jpg	munute                   	0.0988
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_5.jpg	tomato                   	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_6.jpg	chatpata                 	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_7.jpg	cup                      	0.9358
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_8.jpg	soup                     	0.9997
+D:\GitProjects\HoppaQ\result\res_image_crop_num125_mask.jpg	the                      	0.0204
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num176.jpg	surenching               	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num176_0.jpg	trat                     	0.0216
+D:\GitProjects\HoppaQ\result\res_image_crop_num176_1.jpg	tomato                   	0.7300
+D:\GitProjects\HoppaQ\result\res_image_crop_num176_2.jpg	ketchup                  	0.9998
+D:\GitProjects\HoppaQ\result\res_image_crop_num176_mask.jpg	election                 	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num224.jpg	surenching               	0.0000
+D:\GitProjects\HoppaQ\result\res_image_crop_num224_0.jpg	topy                     	0.0071
+D:\GitProjects\HoppaQ\result\res_image_crop_num224_1.jpg	tomato                   	0.9983
+D:\GitProjects\HoppaQ\result\res_image_crop_num224_2.jpg	ketchup                  	0.9999
+D:\GitProjects\HoppaQ\result\res_image_crop_num224_mask.jpg	election                 	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:\GitProjects\HoppaQ\result\res_image_crop_num292.jpg	state                    	0.0008
+D:\GitProjects\HoppaQ\result\res_image_crop_num292_mask.jpg	a                        	0.2118

@@ -73,17 +73,17 @@ def load_model():
 def run_recog_model(model, filename,converter):
 
     AlignCollate_demo = AlignCollate(imgH=opt.imgH, imgW=opt.imgW, keep_ratio_with_pad=opt.PAD)
-    print("demo data start")
+    # print("demo data start")
     # demo_data = RawDataset(filename=filename, opt=opt)  # use RawDataset
     demo_data = RawDataset(root=opt.image_folder, opt=opt)  # use RawDataset
 
-    print("Demo data done")
+    # print("Demo data done")
     demo_loader = torch.utils.data.DataLoader(
         demo_data, batch_size=opt.batch_size,
         shuffle=False,
         num_workers=int(opt.workers),
         collate_fn=AlignCollate_demo, pin_memory=True)
-    print("demo loader done")
+    # print("demo loader done")
     # predict
     model.eval()
     with torch.no_grad():

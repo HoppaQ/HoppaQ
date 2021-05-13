@@ -11,25 +11,24 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 app.config['DEBUG'] = True
 
-import mysql.connector
+import mysql.connector 
 # from DatabaseConnection import *
 
-mydb = get_connection()
+# mydb = get_connection()
 
 
 
 # def get_connection():
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="1234",
-    database="hoppaq_database"
+	host="localhost",
+	user="root",
+	password="1234",
+	database="hoppaq_database"
 )
 	# return mydb
-
+mycursor = mydb.cursor()
 
 def get_all_products():
-	mycursor = mydb.cursor()
 
 	mycursor.execute("select * from product, brand where product.idbrand = brand.idbrand")
 	brands = mycursor.fetchall()
@@ -60,104 +59,104 @@ thread = Thread()
 thread_stop_event = Event()
 
 def randomNumberGenerator():
-    """
-    Generate a random number every 1 second and emit to a socketio instance (broadcast)
-    Ideally to be run in a separate thread?
-    """
-    #infinite loop of magical random numbers
-    print("Making random numbers")
-    while not thread_stop_event.isSet():
-        with open("./newfile.csv", "r+") as f:
+	"""
+	Generate a random number every 1 second and emit to a socketio instance (broadcast)
+	Ideally to be run in a separate thread?
+	"""
+	#infinite loop of magical random numbers
+	print("Making random numbers")
+	while not thread_stop_event.isSet():
+		with open("../records.csv", "r+") as f:
 
-            text = f.read()
-            f.truncate(0)
-            f.close()
-        listX = text.split(",")
-        try:
-            name = listX[0]
-            brandName = listX[1]
-            qty = listX[2]
-            price = listX[3]
-            status = listX[4]
-            socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price, 'status':status}, namespace='/test')
-            socketio.sleep(2)
-        except:
-            socketio.sleep(2)
+			text = f.read()
+			f.truncate(0)
+			f.close()
+		listX = text.split(",")
+		try:
+			name = listX[0]
+			brandName = listX[1]
+			qty = listX[2]
+			price = listX[3]
+			status = listX[4]
+			socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price, 'status':status}, namespace='/test')
+			socketio.sleep(2)
+		except:
+			socketio.sleep(2)
 
 
 @app.route('/')
 def index():
-    #only by sending this page first will the client be connected to the socketio instance
-    return render_template('cart.html')
+	#only by sending this page first will the client be connected to the socketio instance
+	return render_template('cart.html')
 
 @socketio.on('connect', namespace='/test')
 def test_connect():
-    # need visibility of the global thread object
-    global thread
-    print('Client connected')
+	# need visibility of the global thread object
+	global thread
+	print('Client connected')
 
-    #Start the random number generator thread only if the thread has not been started before.
-    if not thread.isAlive():
-        print("Starting Thread")
-        thread = socketio.start_background_task(randomNumberGenerator)
+	#Start the random number generator thread only if the thread has not been started before.
+	if not thread.isAlive():
+		print("Starting Thread")
+		thread = socketio.start_background_task(randomNumberGenerator)
 
 @socketio.on('disconnect', namespace='/test')
 def test_disconnect():
-    print('Client disconnected')
+	print('Client disconnected')
 
 @app.route('/<idX>', methods=['GET','POST'])
 def onProductClick(idX):
-    # print(idX)
-    # global currentProductId 
-    # currentProductId= idX
-    mycursor.execute(f'''select * FROM item WHERE (idinvoice = "{idX}")''')
+	# print(idX)
+	# global currentProductId 
+	# currentProductId= idX
+	mycursor.execute(f'''select * FROM item WHERE (idinvoice = "{idX}")''')
 	invoice = mycursor.fetchall()
-    df = []
-    for i in invoice:
-        dictB = {}
-        dictB['Product'] = i[0]
-        dictB['Date'] = i[2]
-        dictB['Amount'] = i[3]
-        df.append(dictB)
+	df = []
+	for i in invoice:
+		dictB = {}
+		dictB['Product'] = i[0]
+		dictB['Date'] = i[2]
+		dictB['Amount'] = i[3]
+		df.append(dictB)
 
-    # return (render_template('/purchase_history.html',data=df))
+	# return (render_template('/purchase_history.html',data=df))
 
-    # '''Invoice, Name, Date, Amount (bill)'''
-    # df=query_db(q)
-    # valMaxBid = getMaxBid()
-    # if valMaxBid ==0:
-    #     valMaxBid = "No Bid Yet"
-    # global currentProductUserID
-    # print(type(df['OWNER_ID']))
-    # print(len(df['OWNER_ID']))
-    # print(df['OWNER_ID'])
-    # currentProductUserID = df['OWNER_ID']
-    # df['maxBid'] = valMaxBid
-    # print(currentProductUserID)
-    # print(df)
-    # for i in df:
-    #    print(df[i])
-    return (render_template('/single-product.html',data=df))
+	# '''Invoice, Name, Date, Amount (bill)'''
+	# df=query_db(q)
+	# valMaxBid = getMaxBid()
+	# if valMaxBid ==0:
+	#     valMaxBid = "No Bid Yet"
+	# global currentProductUserID
+	# print(type(df['OWNER_ID']))
+	# print(len(df['OWNER_ID']))
+	# print(df['OWNER_ID'])
+	# currentProductUserID = df['OWNER_ID']
+	# df['maxBid'] = valMaxBid
+	# print(currentProductUserID)
+	# print(df)
+	# for i in df:
+	#    print(df[i])
+	return (render_template('/single-product.html',data=df))
 
 @app.route('/history', methods=['GET','POST'])
 def history():
-    '''Invoice, Name, Date, Amount
-    Above is the object that should be queried and be sent in the df for frontend to render'''
+	'''Invoice, Name, Date, Amount
+	Above is the object that should be queried and be sent in the df for frontend to render'''
 
 
-    # q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
-    mycursor.execute(f'''select * FROM invoice WHERE (iduser = "{idX}")''')
+	# q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
+	mycursor.execute(f'''select * FROM invoice WHERE (iduser = "{idX}")''')
 	invoice = mycursor.fetchall()
-    df =[]
-    for i in invoice:
-        dictB = {}
-        dictB['Invoice'] = i[0]
-        dictB['User'] = i[1]
-        dictB['Date'] = i[2]
-        dictB['Amount'] = i[3]
-        df.append(dictB)
-    return (render_template('/purchase_history.html',data=df))
+	df =[]
+	for i in invoice:
+		dictB = {}
+		dictB['Invoice'] = i[0]
+		dictB['User'] = i[1]
+		dictB['Date'] = i[2]
+		dictB['Amount'] = i[3]
+		df.append(dictB)
+	return (render_template('/purchase_history.html',data=df))
 
 
 if __name__ == '__main__':
-    socketio.run(app)
+	socketio.run(app)

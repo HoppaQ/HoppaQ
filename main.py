@@ -17,11 +17,13 @@ import requests
 import csv
 from ProductController import *
 import serial
+import os, glob
 
-time.sleep(10)
 
-ArduinoUnoSerial = serial.Serial('com15',9600)
-print(ArduinoUnoSerial.readline())
+# time.sleep(10)
+
+# ArduinoUnoSerial = serial.Serial('com15',9600)
+# print(ArduinoUnoSerial.readline())
 
 
 # from async_flask.application import
@@ -43,7 +45,7 @@ def initialize():
 	min_area = args["min_area"]
 	# if the video argument is None, then we are reading from webcam
 	if args.get("video", None) is None:
-		vs = cv2.VideoCapture(0)
+		vs = cv2.VideoCapture(1 + cv2.CAP_DSHOW)
 
 	# reduction = cv2.createBackgroundSubtractorMOG2(detectShadows=False, varThreshold=40) #stable but ok
 	# reduction = cv2.bgsegm.createBackgroundSubtractorCNT(10,False,20) #not working 
@@ -84,6 +86,8 @@ def motion_detector(vs, reduction, min_area, net, refine_net,model,converter):
 		w = 1
 		h = 1
 		x1,y1,w1,h1 = 629,469,1,1
+		# print(frame.shape)
+
 
 		# loop over the contours
 		for c in cnts:
@@ -99,8 +103,9 @@ def motion_detector(vs, reduction, min_area, net, refine_net,model,converter):
 		# text = "Occupied"
 		# print(frame.shape)
 		crop_img = frame[y1:y1+h1, x1:x1+w1,:]
-		cv2.imshow("cropped", crop_img)
-		images.append(crop_img)
+		# cv2.imshow("cropped", crop_img)
+		if(crop_img.shape[0] > 10 and crop_img.shape[1] > 10):
+			images.append(crop_img)
 		# if(crop_img.shape[0] > 40 and crop_img.shape[1] > 40):
 		if(len(images) > 40):
 
@@ -156,7 +161,7 @@ def image_processing(image, filename, net, refine_net,model,converter):
 	# image_sharp = cv2.filter2D(image, -1, kernel)
 	image_sharp = image
 
-	cv2.imshow("sharpened_image", image_sharp)
+	# cv2.imshow("sharpened_image", image_sharp)
 	# _thread.start_new_thread(test.run_model,(net,refine_net, image_sharp, filename,model,converter))
 	all_img, all_pred, all_confidence_scores = test.run_model(net,refine_net, image_sharp, filename,model,converter)
 
@@ -164,7 +169,7 @@ def image_processing(image, filename, net, refine_net,model,converter):
 	for i in range(len(all_confidence_scores)):
 		if(all_confidence_scores[i] > 0.90):
 			print(all_confidence_scores[i], all_pred[i], all_img[i])
-			corpus.append({"score" : all_confidence_scores[i] , "pred" : all_pred[i], "img" : all_img[i]})
+			corpus.append({"score" : all_confidence_scores[i] , "pred" : all_pred[i]})
 
 	# brands = DataController.get_all_brands()
 	# print(brands)
@@ -172,9 +177,22 @@ def image_processing(image, filename, net, refine_net,model,converter):
 	# data = {'name':"hello", 'brandName':"someBrand", 'price':2400, 'quantity' :1,} 
 	# r = requests.post(url = API_ENDPOINT, data = data) 
 	#     ProductController.get_product()
-	with open('records.csv', 'w', newline='') as file:
-	    writer = csv.writer(file)
-	    writer.writerow(["SN", "Name", "Contribution"])
+	print(corpus)
+	dir = 'result'
+	for file in os.scandir(dir):
+		os.remove(file.path)
+	print("Add product")
+	# b,prod,p = getProduct(corpus)
+	try :
+		b,prod,p = getProduct(corpus)
+		print(b,prod,p)
+
+
+		with open('records.csv', 'w', newline='') as file:
+			writer = csv.writer(file)
+			writer.writerow([' '.join(prod), b, 1, p, 'add'])
+	except:
+		pass
 
 
 
