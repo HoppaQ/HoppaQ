@@ -267,16 +267,13 @@
               <tr>
                 <th scope="col">Item ID</th>
                 <th scope="col">Invoice ID</th>
-                <th scope="col">Product ID</th>
+                <th scope="col">Product Name</th>
                 <th scope="col">Date</th>
+                <th scope="col">Amount</th>
                 
               </tr>
             </thead>
             <tbody>
-
-              <!-- <script>console.log(data)</script> -->
-              
-            <!-- {% for dictionary in data %} -->
               {% for item in data %}
               <tr>
                 <td>
@@ -287,18 +284,20 @@
                   </div>
                 </td>
                 <td>
-                  <h5>User {{ item[1] }}</h5>
+                  <h5>Invoice {{ item[1] }}</h5>
                 </td>
                 <td>
                   <h5>{{ item[2] }}</h5>
                 </td>
                 <td>
+                  <h5> {{ item[3] }}</h5>
+                </td>
+                 <td>
                   <h5>Rs. {{ item[4] }}</h5>
                 </td>
 
               </tr>
               {% endfor %}
-            <!-- {% endfor %} -->
             </tbody>
           </table>
         </div>

@@ -115,7 +115,8 @@ def onProductClick(idX):
 	# print(idX)
 	# global currentProductId 
 	# currentProductId= idX
-	mycursor.execute(f'''select * FROM item WHERE (idinvoice = "{idX}")''')
+	print(idX)
+	mycursor.execute(f'''select item.iditem, item.idinvoice, product.nameproduct, item.date , product_price.priceproduct FROM item LEFT JOIN product on item.idinvoice = {idX} and product.idproduct = item.idproduct  LEFT JOIN product_price on product_price.idproduct = item.idproduct''')
 	invoice = mycursor.fetchall()
 	# df = []
 	# for i in invoice:
@@ -142,6 +143,7 @@ def onProductClick(idX):
 	# print(df)
 	# for i in df:
 	#    print(df[i])
+	print(invoice)
 	return (render_template('/single-product.html',data=invoice))
 
 @app.route('/history', methods=['GET','POST'])
@@ -151,7 +153,7 @@ def history():
 
 
 	# q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
-	mycursor.execute(f'''select * FROM invoice WHERE (iduser = 1)''')
+	mycursor.execute(f'''select inv.idinvoice, u.name , inv.billdate, inv.billamount FROM invoice inv INNER JOIN user u on u.iduser = inv.iduser ''')
 	invoice = mycursor.fetchall()
 	# df =[]
 	# for i in invoice:
