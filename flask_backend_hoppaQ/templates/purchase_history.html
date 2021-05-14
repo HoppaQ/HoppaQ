@@ -25,7 +25,7 @@
 
 
 
-  <script>
+  <!-- <script>
     $(document).ready(function(){
         //connect to the socket server.
         var socket = io.connect('http://' + document.domain + ':' + location.port + '/test');
@@ -93,7 +93,7 @@
                   </td>
                   <td>
                     <div class="product_count">
-                      <!-- <input type="text" value="1" min="0" max="10" title="Quantity:"
+                      <input type="text" value="1" min="0" max="10" title="Quantity:"
                         class="input-text qty input-number" />
                       <button
                         class="increase input-number-increment items-count" type="button">
@@ -102,7 +102,7 @@
                       <button
                         class="reduced input-number-decrement items-count" type="button">
                         <i class="ti-angle-down"></i>
-                      </button> -->
+                      </button>
                       <span class="input-number-decrement"> <i class="ti-minus"></i></span>
                       <input class="input-number" type="text" value="${qty[i].toString()}" min="0" max="10">
                       <span class="input-number-increment"> <i class="ti-plus"></i></span>
@@ -140,7 +140,7 @@
         });
 
     });
-  </script>
+  </script> -->
 
 
 
@@ -272,27 +272,32 @@
               </tr>
             </thead>
             <tbody>
-              {% for key,value in data.iterrows() %}
+
+              <script>console.log(data)</script>
+              
+            <!-- {% for dictionary in data %} -->
+              {% for item in data %}
               <tr>
                 <td>
                   <div class="media">
                     <div class="media-body">
-                      <h3> <a href="{{ url_for ('onProductClick',idX=value['INVOICE']) }}">{{ value['INVOICE'] }}</a> </h3>
+                      <h3> <a href="{{ url_for ('onProductClick',idX=item[0]) }}" style="color: black;">{{ item[0] }}</a> </h3>
                     </div>
                   </div>
                 </td>
                 <td>
-                  <h5>${{ value['NAME'] }}</h5>
+                  <h5>User {{ item[1] }}</h5>
                 </td>
                 <td>
-                  <h5>${{ value['DATE'] }}</h5>
+                  <h5>{{ item[2] }}</h5>
                 </td>
                 <td>
-                  <h5>${{ value['AMOUNT'] }}</h5>
+                  <h5>Rs. {{ item[3] }}</h5>
                 </td>
 
               </tr>
               {% endfor %}
+            <!-- {% endfor %} -->
             </tbody>
           </table>
         </div>

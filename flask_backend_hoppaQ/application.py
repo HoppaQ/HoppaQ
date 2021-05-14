@@ -4,6 +4,7 @@ from flask import Flask, render_template, url_for, copy_current_request_context
 from random import random
 from time import sleep
 from threading import Thread, Event
+import pandas as pd
 from flask import send_file
 __author__ = 'Utsav'
 
@@ -116,13 +117,13 @@ def onProductClick(idX):
 	# currentProductId= idX
 	mycursor.execute(f'''select * FROM item WHERE (idinvoice = "{idX}")''')
 	invoice = mycursor.fetchall()
-	df = []
-	for i in invoice:
-		dictB = {}
-		dictB['Product'] = i[0]
-		dictB['Date'] = i[2]
-		dictB['Amount'] = i[3]
-		df.append(dictB)
+	# df = []
+	# for i in invoice:
+	# 	dictB = {}
+	# 	dictB['Product'] = i[0]
+	# 	dictB['Date'] = i[2]
+	# 	dictB['Amount'] = i[3]
+	# 	df.append(dictB)
 
 	# return (render_template('/purchase_history.html',data=df))
 
@@ -141,7 +142,7 @@ def onProductClick(idX):
 	# print(df)
 	# for i in df:
 	#    print(df[i])
-	return (render_template('/single-product.html',data=df))
+	return (render_template('/single-product.html',data=invoice))
 
 @app.route('/history', methods=['GET','POST'])
 def history():
@@ -150,17 +151,19 @@ def history():
 
 
 	# q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
-	mycursor.execute(f'''select * FROM invoice WHERE (iduser = "{idX}")''')
+	mycursor.execute(f'''select * FROM invoice WHERE (iduser = 1)''')
 	invoice = mycursor.fetchall()
-	df =[]
-	for i in invoice:
-		dictB = {}
-		dictB['Invoice'] = i[0]
-		dictB['User'] = i[1]
-		dictB['Date'] = i[2]
-		dictB['Amount'] = i[3]
-		df.append(dictB)
-	return (render_template('/purchase_history.html',data=df))
+	# df =[]
+	# for i in invoice:
+	# 	dictB = {}
+	# 	dictB['Invoice'] = i[0]
+	# 	dictB['User'] = i[1]
+	# 	dictB['Date'] = i[2]
+	# 	dictB['Amount'] = i[3]
+	# 	df.append(dictB)
+	# df = pd.dataframe(df)
+	# print(df)
+	return (render_template('/purchase_history.html',data=invoice))
 
 
 @app.route('/invoice', methods=['GET','POST'])
