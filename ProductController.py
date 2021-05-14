@@ -56,7 +56,7 @@ def getProduct(corpus):
 		# 		max_s = len(l2)
 		# 		max_p = prod
 		price = brandToprice[brand]
-		return brand,corpus2,price
+		return brand,sorted(brandToProd[brand]),price
 	except:
 		corpus = clean_corpus(c1)
 		corpus = np.squeeze(corpus[:,1])
@@ -73,7 +73,7 @@ def getProduct(corpus):
 				max_l = l2
 				max_b = b
 				max_p = len(l2)
-		return max_b, max_l, brandToprice[max_b]
+		return max_b, sorted(brandToProd[max_b]), brandToprice[max_b]
 
 
 def intersection(lst1, lst2):

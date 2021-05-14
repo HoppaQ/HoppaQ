@@ -4,13 +4,13 @@ from flask import Flask, render_template, url_for, copy_current_request_context
 from random import random
 from time import sleep
 from threading import Thread, Event
-
+from flask import send_file
 __author__ = 'Utsav'
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 app.config['DEBUG'] = True
-
+import random
 import mysql.connector 
 # from DatabaseConnection import *
 
@@ -50,13 +50,16 @@ def get_all_products():
 
 get_all_products()
 
-
+brandToPk = {'tasty':4, 'know':2, 'fevikwik':3}
 #turn the flask app into a socketio app
 socketio = SocketIO(app, async_mode=None, logger=True, engineio_logger=True)
 
 #random number Generator Thread
 thread = Thread()
 thread_stop_event = Event()
+
+productList = []
+
 
 def randomNumberGenerator():
 	"""
@@ -78,7 +81,9 @@ def randomNumberGenerator():
 			qty = listX[2]
 			price = listX[3]
 			status = listX[4]
-			socketio.emit('newnumber', {'name': name, 'brandName':brandName ,'qty':qty, 'price':price, 'status':status}, namespace='/test')
+			data = {'name': name, 'brandName':brandName ,'qty':qty, 'price':price, 'status':status}
+			socketio.emit('newnumber', data, namespace='/test')
+			productList.append(data)
 			socketio.sleep(2)
 		except:
 			socketio.sleep(2)
@@ -156,6 +161,20 @@ def history():
 		dictB['Amount'] = i[3]
 		df.append(dictB)
 	return (render_template('/purchase_history.html',data=df))
+
+
+@app.route('/invoice', methods=['GET','POST'])
+def Invoice():
+	'''Invoice, Name, Date, Amount
+	Above is the object that should be queried and be sent in the df for frontend to render'''
+
+	invID = random.randint(10000,99999)
+	# q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
+	mycursor.execute(f"insert into invoice values ({invID},1,2012-05-14,130)" )
+	for i in range(len(productList)):
+		mycursor.execute(f"insert into item values (1,{invID},{brandToPk[productList[i]['brandName']]},1,2012-05-14)")
+	path = "inv-001.pdf"
+	return send_file(path, as_attachment=True)
 
 
 if __name__ == '__main__':

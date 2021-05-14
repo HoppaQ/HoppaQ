@@ -103,9 +103,8 @@ def motion_detector(vs, reduction, min_area, net, refine_net,model,converter):
 		# text = "Occupied"
 		# print(frame.shape)
 		crop_img = frame[y1:y1+h1, x1:x1+w1,:]
-		# cv2.imshow("cropped", crop_img)
-		if(crop_img.shape[0] > 10 and crop_img.shape[1] > 10):
-			images.append(crop_img)
+		# cv2.imshow("cropped", crop_img
+		images.append(crop_img)
 		# if(crop_img.shape[0] > 40 and crop_img.shape[1] > 40):
 		if(len(images) > 40):
 
@@ -187,10 +186,20 @@ def image_processing(image, filename, net, refine_net,model,converter):
 		b,prod,p = getProduct(corpus)
 		print(b,prod,p)
 
-
-		with open('records.csv', 'w', newline='') as file:
-			writer = csv.writer(file)
-			writer.writerow([' '.join(prod), b, 1, p, 'add'])
+		f = open("scratch.txt", "r")
+		w = float(f.read())
+		print(w)
+		if w<0:
+			productStatus = "delete"
+		elif w>0:
+			productStatus ="add"
+		else:
+			productStatus="noChange"
+		print(productStatus)
+		if(productStatus!='noChange'):
+			with open('records.csv', 'w', newline='') as file:
+				writer = csv.writer(file)
+				writer.writerow([' '.join(prod), b, 1, p, productStatus])
 	except:
 		pass
 
