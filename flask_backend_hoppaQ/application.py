@@ -4,6 +4,7 @@ from flask import Flask, render_template, url_for, copy_current_request_context
 from random import random
 from time import sleep
 from threading import Thread, Event
+import datetime
 import pandas as pd
 from flask import send_file
 __author__ = 'Utsav'
@@ -60,9 +61,10 @@ thread = Thread()
 thread_stop_event = Event()
 
 productList = []
-
+total = 0
 
 def randomNumberGenerator():
+	global total
 	"""
 	Generate a random number every 1 second and emit to a socketio instance (broadcast)
 	Ideally to be run in a separate thread?
@@ -76,17 +78,25 @@ def randomNumberGenerator():
 			f.truncate(0)
 			f.close()
 		listX = text.split(",")
+		print(listX)
 		try:
 			name = listX[0]
 			brandName = listX[1]
 			qty = listX[2]
 			price = listX[3]
 			status = listX[4]
+			# print(text)
+			if status =="add":
+				total += int(price)
+			elif status == "delete":
+				total -= int(price)
+				productList.remove(brandName)
 			data = {'name': name, 'brandName':brandName ,'qty':qty, 'price':price, 'status':status}
 			socketio.emit('newnumber', data, namespace='/test')
-			productList.append(data)
+			productList.append(brandName)
 			socketio.sleep(2)
-		except:
+		except Exception as e:
+			print(e)
 			socketio.sleep(2)
 
 
@@ -115,7 +125,7 @@ def onProductClick(idX):
 	# print(idX)
 	# global currentProductId 
 	# currentProductId= idX
-	print(idX)
+	# print(idX)
 	mycursor.execute(f'''select item.iditem, item.idinvoice, product.nameproduct, item.date , product_price.priceproduct FROM item LEFT JOIN product on item.idinvoice = {idX} and product.idproduct = item.idproduct  LEFT JOIN product_price on product_price.idproduct = item.idproduct''')
 	invoice = mycursor.fetchall()
 	# df = []
@@ -150,11 +160,10 @@ def onProductClick(idX):
 def history():
 	'''Invoice, Name, Date, Amount
 	Above is the object that should be queried and be sent in the df for frontend to render'''
-
-
 	# q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
 	mycursor.execute(f'''select inv.idinvoice, u.name , inv.billdate, inv.billamount FROM invoice inv INNER JOIN user u on u.iduser = inv.iduser ''')
 	invoice = mycursor.fetchall()
+	print(invoice)
 	# df =[]
 	# for i in invoice:
 	# 	dictB = {}
@@ -172,12 +181,16 @@ def history():
 def Invoice():
 	'''Invoice, Name, Date, Amount
 	Above is the object that should be queried and be sent in the df for frontend to render'''
-
-	invID = random.randint(10000,99999)
+	global total
+	invID = random.randint(10,99)
 	# q=str(f'''SELECT * FROM Project WHERE (PROJECT_ID = "{idX}")''')
-	mycursor.execute(f"insert into invoice values ({invID},1,2012-05-14,130)" )
+	x = datetime.date.today()
+	mycursor.execute(f"insert into invoice values ({invID},1,'2021-05-19',{total})" )
+	mydb.commit()
 	for i in range(len(productList)):
-		mycursor.execute(f"insert into item values (1,{invID},{brandToPk[productList[i]['brandName']]},1,2012-05-14)")
+		print(brandToPk[productList[i]])
+		mycursor.execute(f"insert into item values (1,{invID},{brandToPk[productList[i]]},1,'2021-05-19')")
+		mydb.commit()
 	path = "inv-001.pdf"
 	return send_file(path, as_attachment=True)
 
